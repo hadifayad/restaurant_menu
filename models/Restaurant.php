@@ -3,6 +3,9 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
+use yii\helpers\VarDumper;
 
 /**
  * This is the model class for table "restaurant".
@@ -29,34 +32,37 @@ use Yii;
  * @property RestaurantPictures[] $restaurantPictures
  * @property User[] $users
  */
-class Restaurant extends \yii\db\ActiveRecord
-{
+class Restaurant extends ActiveRecord {
+
+    public $file;
+
     /**
      * {@inheritdoc}
      */
-    public static function tableName()
-    {
+    public static function tableName() {
         return 'restaurant';
     }
 
     /**
      * {@inheritdoc}
      */
-    public function rules()
-    {
+    public function rules() {
         return [
-            [['name', 'name_ar', 'description', 'description_ar', 'open_time', 'close_time', 'address', 'address_ar', 'phone1', 'phone2', 'phone3', 'icon', 'about_us', 'about_us_ar', 'location'], 'required'],
+            [['name', 'name_ar', 'description', 'description_ar', 'open_time', 'close_time', 'address', 'address_ar', 'phone1'], 'required'],
             [['description', 'description_ar', 'address', 'address_ar', 'about_us', 'about_us_ar', 'facebook', 'instagram', 'location'], 'string'],
             [['name', 'name_ar', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3'], 'string', 'max' => 200],
             [['icon'], 'string', 'max' => 255],
+            [['file'], 'file', 'skipOnEmpty' => true,
+                'extensions' => 'png, jpg',
+                'maxFiles' => 1,
+            ]
         ];
     }
 
     /**
      * {@inheritdoc}
      */
-    public function attributeLabels()
-    {
+    public function attributeLabels() {
         return [
             'id' => Yii::t('app', 'ID'),
             'name' => Yii::t('app', 'Name'),
@@ -82,20 +88,70 @@ class Restaurant extends \yii\db\ActiveRecord
     /**
      * Gets query for [[RestaurantPictures]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
-    public function getRestaurantPictures()
-    {
+    public function getRestaurantPictures() {
         return $this->hasMany(RestaurantPictures::className(), ['restaurant_id' => 'id']);
     }
 
     /**
      * Gets query for [[Users]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
-    public function getUsers()
-    {
+    public function getUsers() {
         return $this->hasMany(User::className(), ['restaurant_id' => 'id']);
     }
+
+//    public function uploadFiles($files, $restaurantId) {
+//        if ($this->validate()) {
+//            foreach ($files as $file) {
+//                $randomString = Yii::$app->security->generateRandomString();
+//                $imageName = $randomString . '.' . $file->extension;
+//                $restaurant = Restaurant::findOne(["id" => $restaurantId]);
+//                if ($restaurant) {
+//                    $restaurant->icon = $imageName;
+//                    if ($restaurant->save()) {
+//                        $file->saveAs('restaurantsUploads/' . $imageName);
+//                    } else {
+//                        VarDumper::dump($restaurant->getErrors(), 3, true);
+//                        die();
+//                    }
+//                } else {
+//                    VarDumper::dump("restaurant does not exist", 3, true);
+//                    die();
+//                }
+//                //need just one file/picture
+//                return true;
+//            }
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
+
+    public function uploadFile($file, $restaurantId) {
+        if ($this->validate()) {
+            $randomString = Yii::$app->security->generateRandomString();
+            $imageName = $randomString . '.' . $file->extension;
+            $restaurant = Restaurant::findOne(["id" => $restaurantId]);
+            if ($restaurant) {
+                $restaurant->icon = $imageName;
+                if ($restaurant->save()) {
+                    $file->saveAs('restaurantsUploads/' . $imageName);
+                } else {
+                    VarDumper::dump($restaurant->getErrors(), 3, true);
+                    die();
+                }
+            } else {
+                VarDumper::dump("restaurant does not exist", 3, true);
+                die();
+            }
+            //need just one file/picture
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
