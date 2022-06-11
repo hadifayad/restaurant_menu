@@ -86,14 +86,12 @@ $config = [
             'class' => 'yii\rbac\DbManager',
         ],
         'db' => $db,
-        /*
-          'urlManager' => [
-          'enablePrettyUrl' => true,
-          'showScriptName' => false,
-          'rules' => [
-          ],
-          ],
-         */
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+            ],
+        ],
 //        'sms' => [
 //            'class' => 'wadeshuler\sms\twilio\Sms',
 //            // Advanced app use '@common/sms', basic use '@app/sms'
