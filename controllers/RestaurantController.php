@@ -71,8 +71,6 @@ class RestaurantController extends Controller {
                 $model->file = UploadedFile::getInstance($model, 'file');
                 $file = $model->file;
 
-//                \yii\helpers\VarDumper::dump($file, 3, true);
-//                die();
                 if ($model->save()) {
                     if ($model->uploadFile($file, $model->primaryKey)) {
                         return $this->redirect(['view', 'id' => $model->id]);
@@ -104,8 +102,26 @@ class RestaurantController extends Controller {
         $model = $this->findModel($id);
 
         if ($this->request->isPost && $model->load($this->request->post())) {
+
+            $model->file = UploadedFile::getInstance($model, 'file');
+            $file = $model->file;
+
             if ($model->save()) {
-                
+                if ($file) {
+                    $path = Yii::getAlias('@webroot/restaurantsUploads/');
+                    $filePath = $path . $model->icon;
+                    if (is_file($filePath) && file_exists($filePath)) {
+                        unlink($filePath);
+                    } else {
+                        
+                    }
+
+                    if ($model->uploadFile($file, $model->primaryKey)) {
+                        
+                    } else {
+                        
+                    }
+                }
             }
             return $this->redirect(['view', 'id' => $model->id]);
         }

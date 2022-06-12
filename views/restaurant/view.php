@@ -17,16 +17,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a(Yii::t('app', 'Update'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->id], [
+        <?=
+        Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => Yii::t('app', 'Are you sure you want to delete this item?'),
                 'method' => 'post',
             ],
-        ]) ?>
+        ])
+        ?>
     </p>
 
-    <?= DetailView::widget([
+    <?=
+    DetailView::widget([
         'model' => $model,
         'attributes' => [
             'id',
@@ -41,13 +44,21 @@ $this->params['breadcrumbs'][] = $this->title;
             'phone1',
             'phone2',
             'phone3',
-            'icon',
             'about_us:ntext',
             'about_us_ar:ntext',
             'facebook:ntext',
             'instagram:ntext',
             'location:ntext',
+            [
+                'attribute' => 'icon',
+                'format' => "raw",
+                'value' => function($model) {
+                    $iconPath = Yii::getAlias('@web/restaurantsUploads/') . $model->icon;
+                    return "<img  height='100' src='$iconPath'/>";
+                }
+            ]
         ],
-    ]) ?>
+    ])
+    ?>
 
 </div>
