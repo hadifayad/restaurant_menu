@@ -3,11 +3,15 @@
 namespace app\controllers;
 
 use app\models\Restaurant;
+use app\models\RestaurantImages;
+use app\models\RestaurantPictures;
 use app\models\RestaurantSearch;
 use Yii;
 use yii\filters\VerbFilter;
+use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
+use yii\web\Response;
 use yii\web\UploadedFile;
 
 /**
@@ -52,8 +56,15 @@ class RestaurantController extends Controller {
      * @throws NotFoundHttpException if the model cannot be found
      */
     public function actionView($id) {
+
+        $restaurantPictures = RestaurantPictures::find()
+                ->where(["restaurant_id" => $id])
+                ->all();
+
+
         return $this->render('view', [
                     'model' => $this->findModel($id),
+                    'restaurantPictures' => $restaurantPictures,
         ]);
     }
 
@@ -78,7 +89,7 @@ class RestaurantController extends Controller {
                         
                     }
                 } else {
-                    \yii\helpers\VarDumper::dump($model->getErrors(), 3, true);
+                    VarDumper::dump($model->getErrors(), 3, true);
                     die();
                 }
             }
@@ -165,6 +176,52 @@ class RestaurantController extends Controller {
         }
 
         throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
+    }
+
+    public function actionAddImages($id) {
+        $model = new RestaurantImages();
+
+        if ($model->load($this->request->post())) {
+            $model->file = UploadedFile::getInstances($model, 'file');
+            $files = $model->file;
+            if ($model->uploadFiles($files, $id)) {
+                return $this->redirect(['view', 'id' => $id]);
+            } else {
+                
+            }
+        }
+        return $this->render('add-images', [
+                    'model' => $model,
+        ]);
+    }
+
+    public function actionDeleteFile() {
+
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        $request = Yii::$app->request;
+        $restaurantId = $request->post('restaurantId');
+        $imageName = $request->post('imageName');
+
+        $path = \Yii::getAlias('@webroot/restaurantsUploads/');
+        $filePath = $path . $imageName;
+        $myModel = RestaurantPictures::findOne(["id" => $restaurantId]);
+        
+//        VarDumper::dump($restaurantId,3,true);
+//        VarDumper::dump($restaurantId,3,true);
+//        VarDumper::dump($myModel,3,true);
+//        die();
+        if ($myModel) {
+            $myModel->delete();
+        }
+        if (is_file($filePath) && file_exists($filePath)) {
+            unlink($filePath);
+        } else {
+//                echo 'not directory';
+        }
+
+        return [
+            'success' => true,
+        ];
     }
 
 }
