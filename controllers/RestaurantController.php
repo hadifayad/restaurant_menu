@@ -205,7 +205,7 @@ class RestaurantController extends Controller {
         $path = \Yii::getAlias('@webroot/restaurantsUploads/');
         $filePath = $path . $imageName;
         $myModel = RestaurantPictures::findOne(["id" => $restaurantId]);
-        
+
 //        VarDumper::dump($restaurantId,3,true);
 //        VarDumper::dump($restaurantId,3,true);
 //        VarDumper::dump($myModel,3,true);

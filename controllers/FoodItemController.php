@@ -4,30 +4,30 @@ namespace app\controllers;
 
 use app\models\FoodItem;
 use app\models\FoodItemSearch;
+use app\models\Users;
+use Yii;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
 /**
  * FoodItemController implements the CRUD actions for FoodItem model.
  */
-class FoodItemController extends Controller
-{
+class FoodItemController extends Controller {
+
     /**
      * @inheritDoc
      */
-    public function behaviors()
-    {
+    public function behaviors() {
         return array_merge(
-            parent::behaviors(),
-            [
-                'verbs' => [
-                    'class' => VerbFilter::className(),
-                    'actions' => [
-                        'delete' => ['POST'],
-                    ],
+                parent::behaviors(), [
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
                 ],
-            ]
+            ],
+                ]
         );
     }
 
@@ -35,14 +35,13 @@ class FoodItemController extends Controller
      * Lists all FoodItem models.
      * @return mixed
      */
-    public function actionIndex()
-    {
+    public function actionIndex() {
         $searchModel = new FoodItemSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
+                    'searchModel' => $searchModel,
+                    'dataProvider' => $dataProvider,
         ]);
     }
 
@@ -52,10 +51,9 @@ class FoodItemController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($id)
-    {
+    public function actionView($id) {
         return $this->render('view', [
-            'model' => $this->findModel($id),
+                    'model' => $this->findModel($id),
         ]);
     }
 
@@ -64,20 +62,32 @@ class FoodItemController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
-    {
+    public function actionCreate() {
         $model = new FoodItem();
 
+        $user = Users::findOne(["id" => Yii::$app->user->id]);
+        if ($user) {
+            if ($user["restaurant_id"]) {
+                $model->restaurant_id = $user["restaurant_id"];
+            }
+        }
+
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
+            if ($model->load($this->request->post())) {
+                if ($model->save()) {
+                    $modelNew = new FoodItem();
+                    $modelNew->category_id = $model->category_id;
+                    return $this->render('create', [
+                                'model' => $modelNew
+                    ]);
+                }
             }
         } else {
             $model->loadDefaultValues();
         }
 
         return $this->render('create', [
-            'model' => $model,
+                    'model' => $model,
         ]);
     }
 
@@ -88,8 +98,7 @@ class FoodItemController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($id)
-    {
+    public function actionUpdate($id) {
         $model = $this->findModel($id);
 
         if ($this->request->isPost && $model->load($this->request->post()) && $model->save()) {
@@ -97,7 +106,7 @@ class FoodItemController extends Controller
         }
 
         return $this->render('update', [
-            'model' => $model,
+                    'model' => $model,
         ]);
     }
 
@@ -108,8 +117,7 @@ class FoodItemController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id)
-    {
+    public function actionDelete($id) {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
@@ -122,12 +130,12 @@ class FoodItemController extends Controller
      * @return FoodItem the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id)
-    {
+    protected function findModel($id) {
         if (($model = FoodItem::findOne($id)) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
     }
+
 }

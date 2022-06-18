@@ -1,16 +1,27 @@
 <?php
 
+use app\models\FoodCategory;
+use app\models\FoodItem;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\ActiveForm;
 
-/* @var $this yii\web\View */
-/* @var $model app\models\FoodItem */
-/* @var $form yii\widgets\ActiveForm */
+/* @var $this View */
+/* @var $model FoodItem */
+/* @var $form ActiveForm */
 ?>
 
 <div class="food-item-form">
 
     <?php $form = ActiveForm::begin(); ?>
+
+
+    <?=
+    $form->field($model, 'category_id')->dropDownList(
+            ArrayHelper::map(FoodCategory::find()->all(), "id", "name"), ['prompt' => '']
+    );
+    ?>
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 
@@ -20,11 +31,12 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description_ar')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'category_id')->textInput() ?>
 
     <?= $form->field($model, 'image')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'restaurant_id')->textInput() ?>
+    <?php
+//    echo $form->field($model, 'restaurant_id')->textInput() 
+    ?>
 
     <?= $form->field($model, 'price_lb')->textInput() ?>
 
