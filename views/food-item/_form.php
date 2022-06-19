@@ -19,7 +19,7 @@ use yii\widgets\ActiveForm;
 
     <?=
     $form->field($model, 'category_id')->dropDownList(
-            ArrayHelper::map(FoodCategory::find()->all(), "id", "name"), ['prompt' => '']
+            ArrayHelper::map(FoodCategory::getFoodItemsByUser(), "id", "name"), ['prompt' => '']
     );
     ?>
 

@@ -9,13 +9,12 @@ use app\models\FoodCategory;
 /**
  * FoodCategorySearch represents the model behind the search form of `app\models\FoodCategory`.
  */
-class FoodCategorySearch extends FoodCategory
-{
+class FoodCategorySearch extends FoodCategory {
+
     /**
      * {@inheritdoc}
      */
-    public function rules()
-    {
+    public function rules() {
         return [
             [['id'], 'integer'],
             [['name', 'name_ar', 'image'], 'safe'],
@@ -25,8 +24,7 @@ class FoodCategorySearch extends FoodCategory
     /**
      * {@inheritdoc}
      */
-    public function scenarios()
-    {
+    public function scenarios() {
         // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
@@ -38,10 +36,19 @@ class FoodCategorySearch extends FoodCategory
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
-    {
+    public function search($params) {
         $query = FoodCategory::find();
 
+        $user = Users::findOne(["id" => \Yii::$app->user->id]);
+
+        if ($user) {
+            $query = $query->where(["restaurant_id" => $user->restaurant_id]);
+        } else {
+            $query = $query->where("0=1");
+        }
+
+//        \yii\helpers\VarDumper::dump($query, 3, true);
+//        die();
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
@@ -62,9 +69,10 @@ class FoodCategorySearch extends FoodCategory
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name])
-            ->andFilterWhere(['like', 'name_ar', $this->name_ar])
-            ->andFilterWhere(['like', 'image', $this->image]);
+                ->andFilterWhere(['like', 'name_ar', $this->name_ar])
+                ->andFilterWhere(['like', 'image', $this->image]);
 
         return $dataProvider;
     }
+
 }

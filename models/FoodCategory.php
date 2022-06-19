@@ -3,6 +3,9 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
+use yii\helpers\VarDumper;
 
 /**
  * This is the model class for table "food_category".
@@ -16,7 +19,7 @@ use Yii;
  * @property FoodItem[] $foodItems
  * @property User $restaurant
  */
-class FoodCategory extends \yii\db\ActiveRecord {
+class FoodCategory extends ActiveRecord {
 
     public $file;
 
@@ -34,7 +37,7 @@ class FoodCategory extends \yii\db\ActiveRecord {
         return [
             [['name', 'name_ar', 'restaurant_id'], 'required'],
             [['name', 'name_ar', 'image'], 'string', 'max' => 200],
-            [['restaurant_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['restaurant_id' => 'restaurant_id']],
+            [['restaurant_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['restaurant_id' => 'restaurant_id']],
             [['file'], 'file', 'skipOnEmpty' => true,
                 'extensions' => 'png, jpg',
                 'maxFiles' => 1,
@@ -82,7 +85,7 @@ class FoodCategory extends \yii\db\ActiveRecord {
     /**
      * Gets query for [[FoodItems]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getFoodItems() {
         return $this->hasMany(FoodItem::className(), ['category_id' => 'id']);
@@ -91,10 +94,21 @@ class FoodCategory extends \yii\db\ActiveRecord {
     /**
      * Gets query for [[Restaurant]]. 
      * 
-     * @return \yii\db\ActiveQuery 
+     * @return ActiveQuery 
      */
     public function getRestaurant() {
-        return $this->hasOne(User::className(), ['restaurant_id' => 'restaurant_id']);
+        return $this->hasOne(Users::className(), ['restaurant_id' => 'restaurant_id']);
+    }
+
+    public function getFoodItemsByUser() {
+
+
+        $user = Users::findOne(["id" => \Yii::$app->user->id]);
+
+        if ($user) {
+            return FoodCategory::find()->where(["restaurant_id" => $user->restaurant_id])->all();
+        }
+        return [];
     }
 
 }

@@ -35,6 +35,16 @@ if (LanguageSwitcher::isRtl()) {
 
 
             <?php
+            $navTitle = 'Restaurant Online Menu';
+            $user = Users::findOne(["id" => Yii::$app->user->id]);
+
+            if ($user) {
+                $restuarant = app\models\Restaurant::findOne(["id" => $user->restaurant_id]);
+                if ($restuarant) {
+                    $navTitle = $restuarant->name;
+                }
+            }
+
             NavBar::begin([
                 'brandLabel' => Html::img('@web/favicon.png', [
                     'class' => 'img-rounded',
@@ -45,8 +55,10 @@ if (LanguageSwitcher::isRtl()) {
                         'margin-right' => '5px',
                         'margin-top' => '-10px',
                     ]
-                ]) . Yii::t('app', 'Restaurant Online Menu'),
-                'brandLabel' => "Restaurant Online Menu",
+                ]) . Yii::t('app', $navTitle . " menu"),
+//                ]) . Yii::t('app', 'Restaurant Online Menu'),
+                'brandLabel' => $navTitle . " menu",
+//                'brandLabel' => "Restaurant Online Menu",
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar navbar-inverse navbar-expand-md navbar-dark bg-dark fixed-top',
@@ -142,7 +154,7 @@ if (LanguageSwitcher::isRtl()) {
         </div>
         <!--        <footer class="footer yii-debug-toolbar  " style=" position:fixed;bottom:4px ;text-align:left;width:96px;transition:width .3s ease;" >
                     <div class="container">
-                        <p class="pull-left"><?php // Yii::t('app', 'Temp App') . ' &copy; ' . date('Y')                                 ?></p>
+                        <p class="pull-left"><?php // Yii::t('app', 'Temp App') . ' &copy; ' . date('Y')                                              ?></p>
                     </div>
                 </footer>-->
 

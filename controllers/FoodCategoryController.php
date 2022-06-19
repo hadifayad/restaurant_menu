@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\FoodCategory;
 use app\models\FoodCategorySearch;
+use app\models\Users;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\helpers\VarDumper;
@@ -66,10 +67,25 @@ class FoodCategoryController extends Controller {
     public function actionCreate() {
         $model = new FoodCategory();
 
+        $user = Users::findOne(["id" => Yii::$app->user->id]);
+        if ($user) {
+            if ($user["restaurant_id"]) {
+                $model->restaurant_id = $user["restaurant_id"];
+            }
+        }
+
         if ($this->request->isPost) {
             if ($model->load($this->request->post())) {
                 $model->file = UploadedFile::getInstance($model, 'file');
                 $file = $model->file;
+
+
+                $user = Users::findOne(["id" => \Yii::$app->user->id]);
+
+                $model->restaurant_id = $user->restaurant_id;
+
+//                VarDumper::dump($model,3,true);
+//                die();
 
                 if ($model->save()) {
                     if ($model->uploadFile($file, $model->primaryKey)) {

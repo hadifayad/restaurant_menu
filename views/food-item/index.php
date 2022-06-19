@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\FoodItemSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -19,29 +20,32 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?php Pjax::begin(); ?>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]);  ?>
 
-    <?= GridView::widget([
+    <?=
+    GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
             'id',
             'title',
             'title_ar',
             'description:ntext',
             'description_ar:ntext',
-            //'category_id',
-            //'image',
-            //'restaurant_id',
-            //'price_lb',
-            //'price_usd',
-            //'price_unit',
-
+            [
+                'attribute' => 'category_id',
+                'value' => 'category.name'
+            ],
+//            'image',
+//            'restaurant_id',
+            'price_lb',
+            'price_usd',
+            'price_unit',
             ['class' => 'yii\grid\ActionColumn'],
         ],
-    ]); ?>
+    ]);
+    ?>
 
     <?php Pjax::end(); ?>
 
