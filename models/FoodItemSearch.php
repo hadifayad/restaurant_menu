@@ -9,13 +9,12 @@ use app\models\FoodItem;
 /**
  * FoodItemSearch represents the model behind the search form of `app\models\FoodItem`.
  */
-class FoodItemSearch extends FoodItem
-{
+class FoodItemSearch extends FoodItem {
+
     /**
      * {@inheritdoc}
      */
-    public function rules()
-    {
+    public function rules() {
         return [
             [['id', 'category_id', 'restaurant_id', 'price_lb', 'price_usd', 'price_unit'], 'integer'],
             [['title', 'title_ar', 'description', 'description_ar', 'image'], 'safe'],
@@ -25,8 +24,7 @@ class FoodItemSearch extends FoodItem
     /**
      * {@inheritdoc}
      */
-    public function scenarios()
-    {
+    public function scenarios() {
         // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
@@ -38,9 +36,18 @@ class FoodItemSearch extends FoodItem
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
-    {
+    public function search($params) {
         $query = FoodItem::find();
+
+
+
+        $user = Users::findOne(["id" => \Yii::$app->user->id]);
+
+        if ($user) {
+            $query = $query->where(["restaurant_id" => $user->restaurant_id]);
+        } else {
+            $query = $query->where("0=1");
+        }
 
         // add conditions that should always apply here
 
@@ -67,11 +74,12 @@ class FoodItemSearch extends FoodItem
         ]);
 
         $query->andFilterWhere(['like', 'title', $this->title])
-            ->andFilterWhere(['like', 'title_ar', $this->title_ar])
-            ->andFilterWhere(['like', 'description', $this->description])
-            ->andFilterWhere(['like', 'description_ar', $this->description_ar])
-            ->andFilterWhere(['like', 'image', $this->image]);
+                ->andFilterWhere(['like', 'title_ar', $this->title_ar])
+                ->andFilterWhere(['like', 'description', $this->description])
+                ->andFilterWhere(['like', 'description_ar', $this->description_ar])
+                ->andFilterWhere(['like', 'image', $this->image]);
 
         return $dataProvider;
     }
+
 }

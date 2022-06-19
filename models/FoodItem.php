@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "food_item".
@@ -18,35 +19,34 @@ use Yii;
  * @property int $price_lb
  * @property int|null $price_usd
  * @property int $price_unit
+ * @property Restaurant $restaurant 
  */
-class FoodItem extends \yii\db\ActiveRecord
-{
+class FoodItem extends ActiveRecord {
+
     /**
      * {@inheritdoc}
      */
-    public static function tableName()
-    {
+    public static function tableName() {
         return 'food_item';
     }
 
     /**
      * {@inheritdoc}
      */
-    public function rules()
-    {
+    public function rules() {
         return [
             [['title', 'title_ar', 'description', 'description_ar', 'category_id', 'image', 'restaurant_id', 'price_lb', 'price_unit'], 'required'],
             [['description', 'description_ar'], 'string'],
             [['category_id', 'restaurant_id', 'price_lb', 'price_usd', 'price_unit'], 'integer'],
             [['title', 'title_ar', 'image'], 'string', 'max' => 200],
+            [['restaurant_id'], 'exist', 'skipOnError' => true, 'targetClass' => Restaurant::className(), 'targetAttribute' => ['restaurant_id' => 'id']],
         ];
     }
 
     /**
      * {@inheritdoc}
      */
-    public function attributeLabels()
-    {
+    public function attributeLabels() {
         return [
             'id' => Yii::t('app', 'ID'),
             'title' => Yii::t('app', 'Title'),
@@ -61,4 +61,13 @@ class FoodItem extends \yii\db\ActiveRecord
             'price_unit' => Yii::t('app', 'Price Unit'),
         ];
     }
+
+    public function getRestaurant() {
+        return $this->hasOne(Restaurant::className(), ['id' => 'restaurant_id']);
+    }
+
+    public function getCategory() {
+        return $this->hasOne(FoodCategory::className(), ['id' => 'category_id']);
+    }
+
 }

@@ -154,4 +154,8 @@ class Restaurant extends ActiveRecord {
         }
     }
 
+    public function getFoodItems() {
+        return $this->hasMany(FoodItem::className(), ['restaurant_id' => 'id']);
+    }
+
 }
