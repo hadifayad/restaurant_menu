@@ -6,6 +6,7 @@ use app\models\Restaurant;
 use app\models\RestaurantImages;
 use app\models\RestaurantPictures;
 use app\models\RestaurantSearch;
+use app\models\Users;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\helpers\VarDumper;
@@ -41,6 +42,15 @@ class RestaurantController extends Controller {
      */
     public function actionIndex() {
         $searchModel = new RestaurantSearch();
+
+
+        $user = Users::findOne(["id" => Yii::$app->user->id]);
+        if ($user) {
+            if ($user["restaurant_id"]) {
+                return $this->redirect(['view', 'id' => $user["restaurant_id"]]);
+            }
+        }
+
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [

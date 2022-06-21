@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-            'id',
+//            'id',
             'title',
             'title_ar',
             'description:ntext',
@@ -41,7 +41,14 @@ $this->params['breadcrumbs'][] = $this->title;
 //            'restaurant_id',
             'price_lb',
             'price_usd',
-            'price_unit',
+            'price_unit', [
+                'attribute' => 'image',
+                'format' => "raw",
+                'value' => function($model) {
+                    $iconPath = Yii::getAlias('@web/foodItemsUploads/') . $model->image;
+                    return "<img  height='40' src='$iconPath'/>";
+                }
+            ],
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]);
