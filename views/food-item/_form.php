@@ -2,6 +2,7 @@
 
 use app\models\FoodCategory;
 use app\models\FoodItem;
+use kartik\widgets\FileInput;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\web\View;
@@ -14,7 +15,7 @@ use yii\widgets\ActiveForm;
 
 <div class="food-item-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+<?php $form = ActiveForm::begin(); ?>
 
 
     <?=
@@ -29,10 +30,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'description_ar')->textarea(['rows' => 6]) ?>
+<?= $form->field($model, 'description_ar')->textarea(['rows' => 6]) ?>
 
-
-    <?= $form->field($model, 'image')->textInput(['maxlength' => true]) ?>
 
     <?php
 //    echo $form->field($model, 'restaurant_id')->textInput() 
@@ -44,10 +43,26 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'price_unit')->textInput() ?>
 
-    <div class="form-group">
-        <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>
+    <?php
+    echo $form->field($model, 'file')->widget(FileInput::classname(), [
+        'options' => [
+            'accept' => 'image/*',
+            'multiple' => false
+        ],
+        'pluginOptions' => [
+//            'previewFileType' => 'image',
+            'overwriteInitial' => false,
+            'maxFileSize' => 1000000,
+            'removeClass' => 'btn btn-danger',
+            'removeIcon' => '<i class="glyphicon glyphicon-trash"></i> '
+        ]
+    ]);
+    ?>
+    <div class = "form-group">
+        <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success'])
+        ?>
     </div>
 
-    <?php ActiveForm::end(); ?>
+<?php ActiveForm::end(); ?>
 
 </div>

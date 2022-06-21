@@ -7,8 +7,10 @@ use app\models\FoodItemSearch;
 use app\models\Users;
 use Yii;
 use yii\filters\VerbFilter;
+use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
+use yii\web\UploadedFile;
 
 /**
  * FoodItemController implements the CRUD actions for FoodItem model.
@@ -74,12 +76,24 @@ class FoodItemController extends Controller {
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post())) {
+
+                $model->file = UploadedFile::getInstance($model, 'file');
+                $file = $model->file;
+
                 if ($model->save()) {
-                    $modelNew = new FoodItem();
-                    $modelNew->category_id = $model->category_id;
-                    return $this->render('create', [
-                                'model' => $modelNew
-                    ]);
+                    if ($model->uploadFile($file, $model->primaryKey)) {
+
+                        $modelNew = new FoodItem();
+                        $modelNew->category_id = $model->category_id;
+                        return $this->render('create', [
+                                    'model' => $modelNew
+                        ]);
+                    } else {
+                        
+                    }
+                } else {
+                    VarDumper::dump($model->getErrors(), 3, true);
+                    die();
                 }
             }
         } else {
@@ -101,7 +115,32 @@ class FoodItemController extends Controller {
     public function actionUpdate($id) {
         $model = $this->findModel($id);
 
-        if ($this->request->isPost && $model->load($this->request->post()) && $model->save()) {
+        if ($this->request->isPost && $model->load($this->request->post())) {
+
+            $model->file = UploadedFile::getInstance($model, 'file');
+            $file = $model->file;
+
+
+            if ($model->save()) {
+                if ($file) {
+                    $path = Yii::getAlias('@webroot/foodItemsUploads/');
+                    $filePath = $path . $model->image;
+                    if (is_file($filePath) && file_exists($filePath)) {
+                        unlink($filePath);
+                    } else {
+                        
+                    }
+
+                    if ($model->uploadFile($file, $model->primaryKey)) {
+                        
+                    } else {
+                        
+                    }
+                }
+            } else {
+                VarDumper::dump($model->getErrors(), 3, true);
+                die();
+            }
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
@@ -118,8 +157,15 @@ class FoodItemController extends Controller {
      * @throws NotFoundHttpException if the model cannot be found
      */
     public function actionDelete($id) {
-        $this->findModel($id)->delete();
-
+        $model = $this->findModel($id);
+        $path = Yii::getAlias('@webroot/foodItemsUploads/');
+        $filePath = $path . $model->image;
+        if (is_file($filePath) && file_exists($filePath)) {
+            unlink($filePath);
+        } else {
+//                echo 'not directory';
+        }
+        $model->delete();
         return $this->redirect(['index']);
     }
 
