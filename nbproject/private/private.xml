@@ -3,11 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/repair_management/models/JobCardItemsSearch.php</file>
-            <file>file:/C:/wamp64/www/repair_management/controllers/JobCardItemsController.php</file>
-            <file>file:/C:/wamp64/www/repair_management/controllers/JobCardController.php</file>
-            <file>file:/C:/wamp64/www/repair_management/models/JobCardItems.php</file>
-            <file>file:/C:/wamp64/www/repair_management/models/JobCard.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodCategorySearch.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodItemSearch.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/FoodItemController.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/RestaurantController.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/add-images.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodItem.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/composer.json</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/index.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/view.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/index.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/config/web.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/index.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/_form.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/_form.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/FoodCategoryController.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/web/foodItemsUploads/BnXK8QwDT0DYCBKeJYkHWWbLFPL15C3j.png</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/view.php</file>
+            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodCategory.php</file>
         </group>
     </open-files>
 </project-private>

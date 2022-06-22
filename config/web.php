@@ -128,18 +128,18 @@ $config = [
         'gridview' => [
             'class' => '\kartik\grid\Module'
         ],
-        'datecontrol' => [
-            'class' => '\kartik\datecontrol\Module',
-            'displaySettings' => [
-                DateControl::FORMAT_DATE => 'l dd-MM-yyyy',
-                DateControl::FORMAT_DATETIME => 'dd-MM-yyyy hh:mm:ss a',
-            ],
-            // format settings for saving each date attribute (PHP format example)
-            'saveSettings' => [
-                DateControl::FORMAT_DATE => 'php:Y-m-d', // saves as unix timestamp
-                DateControl::FORMAT_DATETIME => 'php:Y-m-d H:i:s',
-            ],
-        ],
+//        'datecontrol' => [
+//            'class' => '\kartik\datecontrol\Module',
+//            'displaySettings' => [
+//                DateControl::FORMAT_DATE => 'l dd-MM-yyyy',
+//                DateControl::FORMAT_DATETIME => 'dd-MM-yyyy hh:mm:ss a',
+//            ],
+//            // format settings for saving each date attribute (PHP format example)
+//            'saveSettings' => [
+//                DateControl::FORMAT_DATE => 'php:Y-m-d', // saves as unix timestamp
+//                DateControl::FORMAT_DATETIME => 'php:Y-m-d H:i:s',
+//            ],
+//        ],
     ],
 //    'language' => 'en-US',
     'as access' => [
