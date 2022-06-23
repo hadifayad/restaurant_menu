@@ -17,19 +17,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'name_ar')->textInput(['maxlength' => true]) ?>
-
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'description_ar')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'open_time')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'close_time')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'address')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'address_ar')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'phone1')->textInput(['maxlength' => true]) ?>
 
@@ -40,8 +34,6 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'icon')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'about_us')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'about_us_ar')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'facebook')->textarea(['rows' => 6]) ?>
 

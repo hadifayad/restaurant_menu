@@ -12,7 +12,6 @@ use yii\helpers\VarDumper;
  *
  * @property int $id
  * @property string $name
- * @property string $name_ar
  * @property string|null $image
  * @property int $restaurant_id
  *
@@ -35,8 +34,8 @@ class FoodCategory extends ActiveRecord {
      */
     public function rules() {
         return [
-            [['name', 'name_ar', 'restaurant_id'], 'required'],
-            [['name', 'name_ar', 'image'], 'string', 'max' => 200],
+            [['name', 'restaurant_id'], 'required'],
+            [['name', 'image'], 'string', 'max' => 200],
             [['restaurant_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['restaurant_id' => 'restaurant_id']],
             [['file'], 'file', 'skipOnEmpty' => true,
                 'extensions' => 'png, jpg',
@@ -52,7 +51,6 @@ class FoodCategory extends ActiveRecord {
         return [
             'id' => Yii::t('app', 'ID'),
             'name' => Yii::t('app', 'Name'),
-            'name_ar' => Yii::t('app', 'Name Ar'),
             'image' => Yii::t('app', 'Image'),
             'restaurant_id' => 'Restaurant',
         ];

@@ -29,7 +29,8 @@
         "kartik-v/dependent-dropdown": "@dev",
         "kartik-v/yii2-widgets": "*",
         "kartik-v/yii2-widget-datepicker": "dev-master",
-        "kartik-v/yii2-checkbox-x": "dev-master"
+        "kartik-v/yii2-checkbox-x": "dev-master",
+        "kartik-v/yii2-datecontrol": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

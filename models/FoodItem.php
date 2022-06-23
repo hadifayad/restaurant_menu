@@ -11,15 +11,11 @@ use yii\helpers\VarDumper;
  *
  * @property int $id
  * @property string $title
- * @property string $title_ar
  * @property string $description
- * @property string $description_ar
  * @property int $category_id
  * @property string $image
  * @property int $restaurant_id
- * @property int $price_lb
- * @property int|null $price_usd
- * @property int $price_unit
+ * @property int $price
  * @property Restaurant $restaurant 
  */
 class FoodItem extends ActiveRecord {
@@ -38,10 +34,10 @@ class FoodItem extends ActiveRecord {
      */
     public function rules() {
         return [
-            [['title', 'title_ar', 'description', 'description_ar', 'category_id', 'image', 'restaurant_id', 'price_lb', 'price_unit'], 'required'],
-            [['description', 'description_ar'], 'string'],
-            [['category_id', 'restaurant_id', 'price_lb', 'price_usd', 'price_unit'], 'integer'],
-            [['title', 'title_ar', 'image'], 'string', 'max' => 200],
+            [['title', 'description', 'category_id', 'image', 'restaurant_id', 'price'], 'required'],
+            [['description'], 'string'],
+            [['category_id', 'restaurant_id', 'price'], 'integer'],
+            [['title', 'image'], 'string', 'max' => 200],
             [['restaurant_id'], 'exist', 'skipOnError' => true, 'targetClass' => Restaurant::className(), 'targetAttribute' => ['restaurant_id' => 'id']],
             [['file'], 'file', 'skipOnEmpty' => true,
                 'extensions' => 'png, jpg',
@@ -57,15 +53,11 @@ class FoodItem extends ActiveRecord {
         return [
             'id' => Yii::t('app', 'ID'),
             'title' => Yii::t('app', 'Title'),
-            'title_ar' => Yii::t('app', 'Title Ar'),
             'description' => Yii::t('app', 'Description'),
-            'description_ar' => Yii::t('app', 'Description Ar'),
-            'category_id' => Yii::t('app', 'Category ID'),
+            'category_id' => Yii::t('app', 'Category'),
             'image' => Yii::t('app', 'Image'),
-            'restaurant_id' => Yii::t('app', 'Restaurant ID'),
-            'price_lb' => Yii::t('app', 'Price Lb'),
-            'price_usd' => Yii::t('app', 'Price Usd'),
-            'price_unit' => Yii::t('app', 'Price Unit'),
+            'restaurant_id' => Yii::t('app', 'Restaurant'),
+            'price' => Yii::t('app', 'Price'),
         ];
     }
 

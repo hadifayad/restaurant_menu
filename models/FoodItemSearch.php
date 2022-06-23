@@ -16,8 +16,8 @@ class FoodItemSearch extends FoodItem {
      */
     public function rules() {
         return [
-            [['id', 'category_id', 'restaurant_id', 'price_lb', 'price_usd', 'price_unit'], 'integer'],
-            [['title', 'title_ar', 'description', 'description_ar', 'image'], 'safe'],
+            [['id', 'category_id', 'restaurant_id', 'price'], 'integer'],
+            [['title', 'description', 'image'], 'safe'],
         ];
     }
 
@@ -68,15 +68,11 @@ class FoodItemSearch extends FoodItem {
             'id' => $this->id,
             'category_id' => $this->category_id,
             'restaurant_id' => $this->restaurant_id,
-            'price_lb' => $this->price_lb,
-            'price_usd' => $this->price_usd,
-            'price_unit' => $this->price_unit,
+            'price' => $this->price,
         ]);
 
         $query->andFilterWhere(['like', 'title', $this->title])
-                ->andFilterWhere(['like', 'title_ar', $this->title_ar])
                 ->andFilterWhere(['like', 'description', $this->description])
-                ->andFilterWhere(['like', 'description_ar', $this->description_ar])
                 ->andFilterWhere(['like', 'image', $this->image]);
 
         return $dataProvider;

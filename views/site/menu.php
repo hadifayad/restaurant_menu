@@ -1,118 +1,118 @@
 <html lang="en-US" class=" js flexbox flexboxlegacy canvas canvastext no-touch hashchange history draganddrop rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio svg inlinesvg svgclippaths js_active  vc_desktop  vc_transform  vc_transform "><head>
-<meta charset="UTF-8">
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<link rel="pingback" href="https://piquant.qodeinteractive.com/xmlrpc.php">
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>Standard List – Piquant</title>
-<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1821624764800433?v=2.9.62&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KTQ2BTD"></script><script type="application/javascript">var mkdCoreAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><script type="application/javascript">var mkdRestaurantAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1447685263059{padding-bottom: 20px !important;}.vc_custom_1447672721478{margin-right: 0px !important;margin-left: 0px !important;padding-top: 84px !important;padding-bottom: 85px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454) !important;}.vc_custom_1447685269603{padding-top: 60px !important;padding-bottom: 20px !important;}.vc_custom_1447672739246{margin-right: 0px !important;margin-left: 0px !important;padding-top: 102px !important;padding-bottom: 103px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-2.jpg?id=1461) !important;}.vc_custom_1447758364055{padding-top: 60px !important;padding-bottom: 24px !important;}</style>
+        <meta charset="UTF-8">
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <link rel="pingback" href="https://piquant.qodeinteractive.com/xmlrpc.php">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <title>Standard List – Piquant</title>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1821624764800433?v=2.9.62&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KTQ2BTD"></script><script type="application/javascript">var mkdCoreAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><script type="application/javascript">var mkdRestaurantAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1447685263059{padding-bottom: 20px !important;}.vc_custom_1447672721478{margin-right: 0px !important;margin-left: 0px !important;padding-top: 84px !important;padding-bottom: 85px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454) !important;}.vc_custom_1447685269603{padding-top: 60px !important;padding-bottom: 20px !important;}.vc_custom_1447672739246{margin-right: 0px !important;margin-left: 0px !important;padding-top: 102px !important;padding-bottom: 103px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-2.jpg?id=1461) !important;}.vc_custom_1447758364055{padding-top: 60px !important;padding-bottom: 24px !important;}</style>
 
-<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
-	var gtm4wp_datalayer_name = "dataLayer";
-	var dataLayer = dataLayer || [];
-//]]>
-</script>
-<link rel="dns-prefetch" href="//export.qodethemes.com">
-<link rel="dns-prefetch" href="//maps.googleapis.com">
-<link rel="dns-prefetch" href="//static.zdassets.com">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//s.w.org">
-<link rel="alternate" type="application/rss+xml" title="Piquant » Feed" href="https://piquant.qodeinteractive.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="Piquant » Comments Feed" href="https://piquant.qodeinteractive.com/comments/feed/">
-<script type="text/javascript">
+        <script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
+            var gtm4wp_datalayer_name = "dataLayer";
+            var dataLayer = dataLayer || [];
+        //]]>
+        </script>
+        <link rel="dns-prefetch" href="//export.qodethemes.com">
+        <link rel="dns-prefetch" href="//maps.googleapis.com">
+        <link rel="dns-prefetch" href="//static.zdassets.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//s.w.org">
+        <link rel="alternate" type="application/rss+xml" title="Piquant » Feed" href="https://piquant.qodeinteractive.com/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Piquant » Comments Feed" href="https://piquant.qodeinteractive.com/comments/feed/">
+        <script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/piquant.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.13"}};
 			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script><script src="https://piquant.qodeinteractive.com/wp-includes/js/wp-emoji-release.min.js?ver=5.2.13" type="text/javascript" defer=""></script>
-<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/7de6a.css" media="all">
-<link rel="stylesheet" id="rabbit_css-css" href="https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=5.2.13" type="text/css" media="all">
-<link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/c138f.css" media="all">
-<style id="rs-plugin-settings-inline-css" type="text/css">
-#rs-demo-id {}
-</style>
-<link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/9b38b.css" media="all">
-<link rel="stylesheet" id="mkd_google_fonts-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CShadows+Into+Light%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPacifico%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAlike%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;ver=1.0.0" type="text/css" media="all">
-<link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/dccb7.css" media="all">
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='vc_lte_ie9-css'  href='https://piquant.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' />
-<![endif]-->
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/eff97.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
+        </script><script src="https://piquant.qodeinteractive.com/wp-includes/js/wp-emoji-release.min.js?ver=5.2.13" type="text/javascript" defer=""></script>
+        <style type="text/css">
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 .07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/7de6a.css" media="all">
+        <link rel="stylesheet" id="rabbit_css-css" href="https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=5.2.13" type="text/css" media="all">
+        <link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/c138f.css" media="all">
+        <style id="rs-plugin-settings-inline-css" type="text/css">
+            #rs-demo-id {}
+        </style>
+        <link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/9b38b.css" media="all">
+        <link rel="stylesheet" id="mkd_google_fonts-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CShadows+Into+Light%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPacifico%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAlike%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;ver=1.0.0" type="text/css" media="all">
+        <link rel="stylesheet" href="https://piquant.qodeinteractive.com/wp-content/cache/minify/dccb7.css" media="all">
+        <!--[if lt IE 9]>
+        <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://piquant.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' />
+        <![endif]-->
+        <script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/eff97.js"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/standard-list\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"https:\/\/piquant.qodeinteractive.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/f1253.js"></script>
-<script type="text/javascript">
+            /* ]]> */
+        </script>
+        <script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/f1253.js"></script>
+        <script type="text/javascript">
 var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/864c2.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
+        </script>
+        <script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/864c2.js"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
 var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
-/* ]]> */
-</script>
-<link rel="https://api.w.org/" href="https://piquant.qodeinteractive.com/wp-json/">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://piquant.qodeinteractive.com/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://piquant.qodeinteractive.com/wp-includes/wlwmanifest.xml">
-<meta name="generator" content="WordPress 5.2.13">
-<meta name="generator" content="WooCommerce 2.4.10">
-<link rel="canonical" href="https://piquant.qodeinteractive.com/standard-list/">
-<link rel="shortlink" href="https://piquant.qodeinteractive.com/?p=1452">
-<link rel="alternate" type="application/json+oembed" href="https://piquant.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpiquant.qodeinteractive.com%2Fstandard-list%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://piquant.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpiquant.qodeinteractive.com%2Fstandard-list%2F&amp;format=xml">
+            /* ]]> */
+        </script>
+        <link rel="https://api.w.org/" href="https://piquant.qodeinteractive.com/wp-json/">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://piquant.qodeinteractive.com/xmlrpc.php?rsd">
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://piquant.qodeinteractive.com/wp-includes/wlwmanifest.xml">
+        <meta name="generator" content="WordPress 5.2.13">
+        <meta name="generator" content="WooCommerce 2.4.10">
+        <link rel="canonical" href="https://piquant.qodeinteractive.com/standard-list/">
+        <link rel="shortlink" href="https://piquant.qodeinteractive.com/?p=1452">
+        <link rel="alternate" type="application/json+oembed" href="https://piquant.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpiquant.qodeinteractive.com%2Fstandard-list%2F">
+        <link rel="alternate" type="text/xml+oembed" href="https://piquant.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpiquant.qodeinteractive.com%2Fstandard-list%2F&amp;format=xml">
 
-<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
+        <script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
 	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"admin"};
 	dataLayer.push( dataLayer_content );//]]>
-</script>
-<script data-cfasync="false">//<![CDATA[
+        </script>
+        <script data-cfasync="false">//<![CDATA[
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KTQ2BTD');//]]>
-</script>
+        </script>
 
-<style type="text/css"> .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-container, .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-full-width { background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/pattern-2.png);background-repeat: repeat;background-size: 200px 200px;}
+        <style type="text/css"> .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-container, .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-full-width { background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/pattern-2.png);background-repeat: repeat;background-size: 200px 200px;}
 
- .page-id-1452 .mkdf-top-bar { background-color: rgba(17, 17, 17, 0);}
+            .page-id-1452 .mkdf-top-bar { background-color: rgba(17, 17, 17, 0);}
 
- </style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-<meta name="generator" content="Powered by Slider Revolution 5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-<link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-150x150.png" sizes="32x32">
-<link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png" sizes="192x192">
-<link rel="apple-touch-icon-precomposed" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-180x180.png">
-<meta name="msapplication-TileImage" content="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png">
-<style type="text/css" id="mkdf-custom-css">.mkdf-single-image-hover a {
-    position: relative;
-}
+        </style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+        <meta name="generator" content="Powered by Slider Revolution 5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+        <link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-150x150.png" sizes="32x32">
+        <link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png" sizes="192x192">
+        <link rel="apple-touch-icon-precomposed" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-180x180.png">
+        <meta name="msapplication-TileImage" content="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png">
+        <style type="text/css" id="mkdf-custom-css">.mkdf-single-image-hover a {
+                position: relative;
+            }
 
-.mkdf-single-image-hover a:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+            .mkdf-single-image-hover a:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
 
-    opacity: 0;
-    background-color: rgba(5, 5, 5, 0.28);
-    transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
-}
+                opacity: 0;
+                background-color: rgba(5, 5, 5, 0.28);
+                transition: opacity 0.3s ease-in-out;
+                -webkit-transition: opacity 0.3s ease-in-out;
+            }
 
 .mkdf-single-image-hover a:hover:after {
     opacity: 1;
@@ -215,9 +215,9 @@ margin-right: 0;
 </div>
 
 
-</div>
-</div>
-</div>
+                                                            </div>
+                                                </div>
+                                            </div>
 <div class="mkdf-sticky-header">
 <div class="mkdf-sticky-holder">
 <div class="mkdf-grid">
@@ -729,470 +729,3 @@ margin-right: 0;
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
 <div id="text-5" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget"><p>Follow Us
-
-
-</div>
-</div> </div>
-</div>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-</div> 
-</div> 
-<div class="rbt-toolbar" data-theme="Piquant" data-featured="" data-button-position="30%" data-button-horizontal="right" data-button-alt="no">
-<section class="rbt-sidearea rbt-mikado rbt-btn-horizontal-right rbt-btn-alt-no rbt-loaded rbt-scrolled">
-
-		<div class="rbt-theme-dropdown" style="top: calc(30% - 25px);">
-			<div class="rbt-btn">
-				<span class="rbt-icon">
-					<svg x="0px" y="0px" viewBox="0 0 87 87" style="fill: #fff;height: 26px;">
-						<path d="M55.4,81.5c6.1-11.1,5.2-16.1-4.3-24.3c6.1-3.5,9.5-8.5,9.1-15.7c-0.5-8.2-7.7-14.7-16.3-14.6
-							c-8.5,0.1-15.6,6.7-15.9,15c-0.3,8.5,5.9,15.8,14.3,16.6c1.4,0.1,2.8,0.2,4.2,0.5c5.9,1.2,10.2,6.7,9.8,12.6
-							c-0.4,6.4-5.5,11.4-11.8,11.7C24.9,84.2,5.9,68.5,3.2,49.3C-0.1,26.9,14.4,6.8,36.4,2.8c22.3-4,43.4,10,48.1,32
-							c4.3,20-8.6,41.2-28.4,46.7C55.9,81.5,55.6,81.5,55.4,81.5z"></path>
-					</svg>
-					<svg width="32" height="32" viewBox="0 0 32 32" style="fill: #fff;height: 20px;">
-							<path d="M 4,15C 4,15.552, 4.448,16, 5,16l 19.586,0 l-4.292,4.292c-0.39,0.39-0.39,1.024,0,1.414 c 0.39,0.39, 1.024,0.39, 1.414,0l 6-6c 0.092-0.092, 0.166-0.202, 0.216-0.324C 27.972,15.26, 28,15.132, 28,15.004c0-0.002,0-0.002,0-0.004 l0,0c0-0.13-0.026-0.26-0.078-0.382c-0.050-0.122-0.124-0.232-0.216-0.324l-6-6c-0.39-0.39-1.024-0.39-1.414,0 c-0.39,0.39-0.39,1.024,0,1.414L 24.586,14L 5,14 C 4.448,14, 4,14.448, 4,15z"></path>
-					</svg>
-				</span>
-				<span class="rbt-text-name">RELATED</span>
-			</div>
-		</div>
-
-		<div class="rbt-purchase" style="top: calc(30% + 25px);">
-			<a target="_blank" href="https://qodeinteractive.com/purchase/piquant/?aso=https://piquant.qodeinteractive.com/%26aca=https://piquant.qodeinteractive.com/%26aid=mikado">
-				<span class="rbt-icon">
-					<svg x="0px" y="0px" viewBox="0 0 24 24" style="fill: #ee2852; height: 16px;">
-						<circle cx="9" cy="21" r="2"></circle>
-						<circle cx="20" cy="21" r="2"></circle>
-						<path d="M23.8,5.4C23.6,5.1,23.3,5,23,5H6.8L6,0.8C5.9,0.3,5.5,0,5,0H1C0.4,0,0,0.4,0,1s0.4,1,1,1h3.2L5,6.2c0,0,0,0.1,0,0.1
-							l1.7,8.3C7,16,8.2,17,9.6,17c0,0,0,0,0.1,0h9.7c1.5,0,2.7-1,3-2.4L24,6.2C24,5.9,24,5.6,23.8,5.4z"></path>
-						</svg>
-				</span>
-				<span class="rbt-purchase-text">BUY NOW</span>
-			</a>
-		</div>
-
-		<div class="rbt-list-holder">
-			<div class="rbt-list">
-				<div class="rbt-list-inner">
-
-					<div class="rbt-logo">
-						<a href="https://qodeinteractive.com" target="_blank">
-							<div class="logo-svg-holder">
-								<svg x="0px" y="0px" viewBox="0 0 87 87" style="fill: #ee2852; height: 40px;">
-									<path d="M55.4,81.5c6.1-11.1,5.2-16.1-4.3-24.3c6.1-3.5,9.5-8.5,9.1-15.7c-0.5-8.2-7.7-14.7-16.3-14.6
-										c-8.5,0.1-15.6,6.7-15.9,15c-0.3,8.5,5.9,15.8,14.3,16.6c1.4,0.1,2.8,0.2,4.2,0.5c5.9,1.2,10.2,6.7,9.8,12.6
-										c-0.4,6.4-5.5,11.4-11.8,11.7C24.9,84.2,5.9,68.5,3.2,49.3C-0.1,26.9,14.4,6.8,36.4,2.8c22.3-4,43.4,10,48.1,32
-										c4.3,20-8.6,41.2-28.4,46.7C55.9,81.5,55.6,81.5,55.4,81.5z"></path>
-								</svg>
-							</div>
-							<p class="logo-text-holder">Qode Interactive</p>
-						</a>
-					</div>
-
-					
-					
-											<span class="rbt-list-related">Related Themes</span>
-														<a target="_blank" href="https://pearce.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Pearce - Portfolio WordPress Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/284494933/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Pearce">
-										</div>
-										<span class="rbt-theme-name">Pearce</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$75</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://affinity.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Affinity - Multipurpose WordPress Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/212889633/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Affinity">
-										</div>
-										<span class="rbt-theme-name">Affinity</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://newshub.qodeinteractive.com/?utm_campaign=mikado&amp;utm_source=toolbar" title="Newshub - Magazine &amp; News Portal Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/203884312/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Newshub">
-										</div>
-										<span class="rbt-theme-name">Newshub</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://medigroup.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Medigroup - Medical and Health Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/280783584/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Medigroup">
-										</div>
-										<span class="rbt-theme-name">Medigroup</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://hue.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Hue - Startup Landing Page Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/200513074/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Hue">
-										</div>
-										<span class="rbt-theme-name">Hue</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$75</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://voyage.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Voyage - Travel Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/184370122/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Voyage">
-										</div>
-										<span class="rbt-theme-name">Voyage</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://hashmag.qodeinteractive.com/?utm_campaign=mikado&amp;utm_source=toolbar" title="HashMag - Magazine &amp; News Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/180978340/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="HashMag">
-										</div>
-										<span class="rbt-theme-name">HashMag</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://sienna.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Sienna - Professional Business Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/280783933/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Sienna">
-										</div>
-										<span class="rbt-theme-name">Sienna</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://discussion.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Discussion - News Portal Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/176353307/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Discussion">
-										</div>
-										<span class="rbt-theme-name">Discussion</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://wellspring.qodeinteractive.com/landing?utm_campaign=mikado&amp;utm_source=toolbar" title="Wellspring - Health, Lifestyle &amp; Wellness Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/173206132/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Wellspring">
-										</div>
-										<span class="rbt-theme-name">Wellspring</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://optimize.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Optimize - SEO &amp; Social Media Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/169403630/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Optimize">
-										</div>
-										<span class="rbt-theme-name">Optimize</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://chillnews.qodeinteractive.com/?utm_campaign=mikado&amp;utm_source=toolbar" title="Chill News - Magazine Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/165050880/00_preview.__large_preview.PNG" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Chill News">
-										</div>
-										<span class="rbt-theme-name">Chill News</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://deploy.qodeinteractive.com/?utm_campaign=mikado&amp;utm_source=toolbar" title="Deploy - Consulting &amp; Business Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/162201804/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Deploy">
-										</div>
-										<span class="rbt-theme-name">Deploy</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://libero.qodeinteractive.com/?utm_campaign=mikado&amp;utm_source=toolbar" title="Libero -  Lawyer and Law Firm Theme">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/160929133/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Libero">
-										</div>
-										<span class="rbt-theme-name">Libero</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-																<a target="_blank" href="https://burst.qodeinteractive.com/landing/?utm_campaign=mikado&amp;utm_source=toolbar" title="Burst - Creative Design Agency">
-									<div class="rbt-theme">
-										<div class="rbt-img-hover rbt-lazy-load">
-											<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/242391058/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Burst">
-										</div>
-										<span class="rbt-theme-name">Burst</span>
-										<span class="rbt-theme-tag"></span>
-										<span class="rbt-theme-price">$69</span>
-									</div>
-								</a>
-								
-					<span class="rbt-list-new">New Themes</span>
-												<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/munich-creative-portfolio-agency-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Munich - Creative Portfolio &amp; Agency Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/396901267/00_preview.__large_preview.jpg" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Munich">
-									</div>
-									<span class="rbt-theme-name">Munich</span>
-									<span class="rbt-theme-tag">creative business</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/eirwen-modern-woocommerce-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Eirwen - Modern WooCommerce Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/396364286/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Eirwen">
-									</div>
-									<span class="rbt-theme-name">Eirwen</span>
-									<span class="rbt-theme-tag">woocommerce</span>
-									<span class="rbt-theme-price">$79</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/herr-digital-magazine-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Herr - Digital Magazine Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/395505397/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Herr">
-									</div>
-									<span class="rbt-theme-name">Herr</span>
-									<span class="rbt-theme-tag">blog &amp; magazine</span>
-									<span class="rbt-theme-price">$79</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/odger-creative-portfolio-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Ødger - Creative Portfolio Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/394409318/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Ødger">
-									</div>
-									<span class="rbt-theme-name">Ødger</span>
-									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/chalet-travel-accommodation-booking-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Chalet - Travel Accommodation Booking WordPress Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/394043347/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Chalet">
-									</div>
-									<span class="rbt-theme-name">Chalet</span>
-									<span class="rbt-theme-tag">travel &amp; hotels</span>
-									<span class="rbt-theme-price">$69</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/astralla-horoscope-and-astrology-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Astralla - Horoscope and Astrology Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/393569782/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Astralla">
-									</div>
-									<span class="rbt-theme-name">Astralla</span>
-									<span class="rbt-theme-tag">business</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/helvig-creative-portfolio-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Helvig - Creative Portfolio Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/392957767/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Helvig">
-									</div>
-									<span class="rbt-theme-name">Helvig</span>
-									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$79</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/carmona-creative-multipurpose-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Carmona - Creative Multipurpose Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/389992964/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Carmona">
-									</div>
-									<span class="rbt-theme-name">Carmona</span>
-									<span class="rbt-theme-tag">creative business</span>
-									<span class="rbt-theme-price">$69</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/ginevra-artist-portfolio-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Ginevra - Artist Portfolio Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/389846723/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Ginevra">
-									</div>
-									<span class="rbt-theme-name">Ginevra</span>
-									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$69</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/obsius-creative-agency-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Obsius - Creative Agency Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/389021751/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Obsius">
-									</div>
-									<span class="rbt-theme-name">Obsius</span>
-									<span class="rbt-theme-tag">creative business</span>
-									<span class="rbt-theme-price">$79</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/elowen-elegant-ecommerce-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Elowen - Elegant eCommerce Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/388097524/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Elowen">
-									</div>
-									<span class="rbt-theme-name">Elowen</span>
-									<span class="rbt-theme-tag">woocommerce</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/rawtracks-music-dj-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Rawtracks - Music &amp; DJ Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/387425791/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Rawtracks">
-									</div>
-									<span class="rbt-theme-name">Rawtracks</span>
-									<span class="rbt-theme-tag">music</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/blanquette-restaurant-wordpress-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Blanquette - Restaurant WordPress Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/385317164/00_preview.__large_preview.jpg" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Blanquette">
-									</div>
-									<span class="rbt-theme-name">Blanquette</span>
-									<span class="rbt-theme-tag">food &amp; restaurants</span>
-									<span class="rbt-theme-price">$69</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/madelyn-elegant-creative-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Madelyn - Elegant Creative Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/383847101/00_preview.__large_preview.png" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Madelyn">
-									</div>
-									<span class="rbt-theme-name">Madelyn</span>
-									<span class="rbt-theme-tag">creative business</span>
-									<span class="rbt-theme-price">$75</span>
-								</div>
-							</a>
-														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/roux-creative-portfolio-wordpress-theme/?utm_campaign=mikado&amp;utm_source=toolbar" title="Roux - Creative Portfolio WordPress Theme">
-								<div class="rbt-theme">
-									<div class="rbt-img-hover rbt-lazy-load">
-										<img itemprop="image" data-image="https://previews.customer.envatousercontent.com/files/383173763/00_preview.__large_preview.jpg" width="225" height="114" src="https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg" alt="Roux">
-									</div>
-									<span class="rbt-theme-name">Roux</span>
-									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$69</span>
-								</div>
-							</a>
-							
-					<!--					<div class="rbt-social-inlist">-->
-					<!--						<span class="rbt-social-facebook"><a-->
-					<!--									href="--><!--"-->
-					<!--									target="_blank"><img-->
-					<!--										src="--><!--"></a></span>-->
-					<!--						<span class="rbt-social-twitter"><a-->
-					<!--									href="--><!--"-->
-					<!--									target="_blank"><img-->
-					<!--										src="--><!--"></a></span>-->
-					<!--						<span class="rbt-social-instagram"><a-->
-					<!--									href="--><!--"-->
-					<!--									target="_blank"><img-->
-					<!--										src="--><!--"></a></span>-->
-					<!--					</div>-->
-				</div>
-			</div>
-
-			<div class="rbt-list-bottom">
-				<a class="rbt-link-holder" href="https://qodeinteractive.com" target="_blank">
-					<p class="link-text-holder">VIEW ALL QODE THEMES</p>
-					<div class="link-svg-holder">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="9" viewBox="0 0 9 9">
-							<image width="9" height="9" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAQAAABKmM6bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBhISBAPLk0qYAAAAZ0lEQVQI103OsQnCUACE4S9qmofLWLpDcChXEPcIksoF3CG94ALaBDmLl0j+Kw7urjgxq2TMmBIblWLQag1KE2jcbT1w9F1WN53JpNPvQFzm6uO6rFaso/3s/xOHPHOKkFcq75xr+QPBNi/UsU/OawAAAABJRU5ErkJggg=="></image>
-						</svg>
-					</div>
-				</a>
-			</div>
-		</div>
-	</section>
-
-</div>
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script type="text/javascript">
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/piquant.qodeinteractive.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/0fef6.js"></script>
-<script type="text/javascript" src="https://export.qodethemes.com/_toolbar/assets/js/rbt-modules.js?ver=5.2.13"></script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/6d18f.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/standard-list\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/3c2c7.js"></script>
-<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1821624764800433");</script>
-<script type="text/javascript" id="">fbq("track","PageView");</script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/standard-list\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/bf1c6.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfSe2XNvOAkZSNiqFZNdJ2kMYJAcp-REk&amp;ver=5.2.13"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var mkdfGlobalVars = {"vars":{"mkdfAddForAdminBar":0,"mkdfElementAppearAmount":-150,"mkdfFinishedMessage":"No more posts","mkdfMessage":"Loading new posts...","mkdfTopBarHeight":51,"mkdfStickyHeaderHeight":60,"mkdfStickyHeaderTransparencyHeight":60,"mkdfLogoAreaHeight":0,"mkdfMenuAreaHeight":146,"mkdfMobileHeaderHeight":100}};
-var mkdfPerPageVars = {"vars":{"mkdfStickyScrollAmount":0,"mkdfHeaderTransparencyHeight":0}};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/13742.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var mkdfLike = {"ajaxurl":"https:\/\/piquant.qodeinteractive.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/5a656.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-</script>
-<script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/9e5f8.js"></script>
-<script type="text/javascript" src="https://static.zdassets.com/ekr/snippet.js?key=af3078fd-a5ae-40da-bee0-e589b98c8603&amp;ver=5.2.13" id="ze-snippet"></script><script type="text/javascript">
-						zE(function(){
-							$zopim(function(){
-								var isChatEnabled = sessionStorage.getItem("qodeChatEnabled"),
-									appearingTime = 15000;
-								
-								if(isChatEnabled !== "no" && window.innerWidth > 1024) {
-									setTimeout(function(){
-										$zopim.livechat.window.show();
-										
-										 $zopim.livechat.window.onHide(function(){
-										    sessionStorage.setItem("qodeChatEnabled", "no");
-										 });
-									}, appearingTime);
-								}
-							});
-						});
-						</script><script src="https://piquant.qodeinteractive.com/wp-content/cache/minify/13d7d.js"></script>
-
-
-<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 0px; z-index: 9999; cursor: default; position: fixed; top: 1px; left: 742px; height: 100px; opacity: 1; touch-action: none; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 0px; height: 32px; background-color: transparent; border: 0px; background-clip: padding-box; border-radius: 0px; touch-action: none;"></div></div><iframe data-product="web_widget" title="No content" tabindex="-1" allow="microphone *" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe></body></html>
