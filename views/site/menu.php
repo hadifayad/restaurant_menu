@@ -137,7 +137,7 @@ margin-right: 0;
 <li id="menu-item-1242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1242"><a href="https://piquant.qodeinteractive.com/our-services/">Our Services</a></li>
 <li id="menu-item-1243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1243"><a href="https://piquant.qodeinteractive.com/shop/">Shop</a></li>
 <li id="menu-item-2825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825"><a href="https://piquant.qodeinteractive.com/landing/">Landing</a></li>
-</ul></div></div><div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+</ul></div></div><div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b"><?= $restuarant['name']?></span>
 <div class="mkdf-separator-holder clearfix  mkdf-separator-center">
 <div class="mkdf-separator" style="border-color: rgba(255,255,255,0.18);width: 100%;border-bottom-width: 1px;margin-top: 20px;margin-bottom: 20px"></div>
 </div>
@@ -169,19 +169,19 @@ margin-right: 0;
 </a>
 </span>
 <span class="mkdf-icon-shortcode normal" style="margin: 0 15px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="https://twitter.com/QodeInteractive" target="_blank" rel="noopener noreferrer">
+<a href="" target="_blank" rel="noopener noreferrer">
 <span class="mkdf-image-icon">
 <span aria-hidden="true" class="mkdf-icon-font-elegant social_twitter mkdf-icon-element" style="color: #e6e6e6;font-size:12px"></span> </span>
 </a>
 </span>
 <span class="mkdf-icon-shortcode normal" style="margin: 0 13px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="https://www.instagram.com/qodeinteractive/" target="_blank" rel="noopener noreferrer">
+<a href="" target="_blank" rel="noopener noreferrer">
 <span class="mkdf-image-icon">
 <span aria-hidden="true" class="mkdf-icon-font-elegant social_instagram mkdf-icon-element" style="color: #e6e6e6;font-size:12px"></span> </span>
 </a>
 </span>
 <span class="mkdf-icon-shortcode normal" style="margin: 0 15px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="http://www.tripadvisor.com/" target="_blank" rel="noopener noreferrer">
+<a href="" target="_blank" rel="noopener noreferrer">
 <span class="mkdf-image-icon">
 <i class="mkdf-icon-font-awesome fa fa-tripadvisor mkdf-icon-element" style="color: #e6e6e6;font-size:14px"></i> </span>
 </a>
@@ -554,8 +554,8 @@ margin-right: 0;
 <div class="mkdf-title-subtitle-holder" style="">
 <div class="mkdf-title-subtitle-holder-inner">
 <div class="mkdf-title-area-graphic-holder">
-<img width="207" height="133" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-graphic-menu.png" class="attachment-full size-full" alt="p" srcset="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-graphic-menu.png 207w, https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-graphic-menu-180x116.png 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
-<span class="mkdf-subtitle" style="color:#ffffff;"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span></span>
+<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
+<span class="mkdf-subtitle" style="color:#ffffff;"><span><?= $restuarant['name_ar']?></span></span>
 </div>
 </div>
 </div>
@@ -567,981 +567,83 @@ margin-right: 0;
 <div class="mkdf-overlapping-content">
 <div class="mkdf-overlapping-content-inner">
 <div class="mkdf-container-inner clearfix">
-<div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447685263059 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><div class="mkdf-mlw-title-holder mkdf-mlw-title-holder-"><h2 class="mkdf-mlw-title">BRUNCH</h2><span class="mkdf-mlw-border"><span class="mkdf-mlw-border-inner"></span></span></div><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/">Masala-Spiced Chickpeas</a></h4>
+<div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447685263059 mkdf-content-aligment-left" style="">
+    <div class="clearfix mkdf-full-section-inner">
+        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
+            <div class="vc_column-inner"><div class="wpb_wrapper">
+        <div class="vc_empty_space" style="height: 40px">
+            <span class="vc_empty_space_inner"></span>
+        </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="mkdf-menu-list" >
+                        
+                        <?php 
+                        for($j=0 ;$j<sizeof($food);$j++){
+                            ?>
+                        <div class="mkdf-mlw-title-holder mkdf-mlw-title-holder-">
+                            <h2 class="mkdf-mlw-title"><?= $food[$j]['name']?></h2>
+                            <span class="mkdf-mlw-border">
+                                <span class="mkdf-mlw-border-inner"></span></span></div>
+                            <ul class="mkdf-ml-holder">
+                              
+
+  <?php
+            for ($i = 0; $i < sizeof($food[$j]['food']); $i++) {
+                ?>
+                
+                  <li class="mkdf-ml-item clearfix">
+                            <div class="mkdf-ml-item-content">
+                           <div class="mkdf-ml-top-holder">
+                           <div class="mkdf-ml-title-holder">
+                                <h4 class="mkdf-ml-title">
+<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/"><?= $food[$j]['food'][$i]["title"]?></a></h4>
 </div>
 <div class="mkdf-ml-dots"></div>
 <div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$14</h4>
+<h4 class="mkdf-ml-price"><?= $food[$j]['food'][$i]["price_lb"]?></h4>
 </div>
 </div>
 <div class="mkdf-ml-bottom-holder clearfix">
 <div class="mkdf-ml-excerpt-holder">
-<p>Pork meat, Sauces, Potato</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
+<p><?= $food[$j]['food'][$i]["description_ar"] ?></p>
 </div>
 </div>
 </div>
 </li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-pastrami/">Kung Pao Pastrami</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$12</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Cheese, Garlic, Potato, Pork</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/jalapeno-mango-salsa/">Jalapeno-Mango Salsa</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$45</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Mango, Rice, Jalapeno</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/spicy-fried-rice-bacon/">Spicy Fried Rice &amp; Bacon</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$38</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Bacon, Rice, Vegetables</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/shrimp-curry/">Shrimp Curry</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$55</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Shrimp, Vegetables, Sauce</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-doro-wat/">Chicken Doro Wat</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$23</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><div class="mkdf-mlw-title-holder mkdf-mlw-title-holder-"><h2 class="mkdf-mlw-title">MAIN DISHES</h2><span class="mkdf-mlw-border"><span class="mkdf-mlw-border-inner"></span></span></div><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/">Chocolate Macarons</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$20</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chocolate, Biscuits, Nougat</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-stew/">Chicken Stew</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$15</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Vegetables, Eggs</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/fruit-vanilla-ice-cream/">Fruit-Vanilla Ice Cream</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$25</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Vanilla, Various Fruit, Cookies</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/sweet-spicy-pork/">Sweet &amp; Spicy Pork</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$67</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Pork, Spices, Curry </p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-doro-wat/">Chicken Doro Wat</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$23</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/shrimp-curry/">Shrimp Curry</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$55</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Shrimp, Vegetables, Sauce</p>
-</div>
-</div>
-</div>
-</li>
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672721478 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 142px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+                
+            
+          <?php  } ?>
+
+
+
+
+                            </ul>
+                        
+                        
+                        <?php   }?>
+</div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div>
+<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12"><div class="vc_column-inner">
+        <div class="wpb_wrapper"><div class="mkdf-menu-list"></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672739246 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 368px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="254" height="201" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png" class="vc_single_image-img attachment-full" alt="q" srcset="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png 254w, https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2-180x142.png 180w" sizes="(max-width: 254px) 100vw, 254px"></div>
+    <!<!-- imagee -->
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="151" height="167" src="" class="vc_single_image-img attachment-full" alt="q"></div>
 </figure>
 </div>
-</div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447685269603 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/sweet-spicy-pork/">Sweet &amp; Spicy Pork</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$67</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Pork, Spices, Curry </p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/spicy-fried-rice-bacon/">Spicy Fried Rice &amp; Bacon</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$38</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Bacon, Rice, Vegetables</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/shrimp-curry/">Shrimp Curry</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$55</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Shrimp, Vegetables, Sauce</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/">Masala-Spiced Chickpeas</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$14</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Pork meat, Sauces, Potato</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-pastrami/">Kung Pao Pastrami</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$12</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Cheese, Garlic, Potato, Pork</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/jalapeno-mango-salsa/">Jalapeno-Mango Salsa</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$45</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Mango, Rice, Jalapeno</p>
-</div>
-</div>
-</div>
-</li>
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-doro-wat/">Chicken Doro Wat</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$23</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-stew/">Chicken Stew</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$15</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Vegetables, Eggs</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/">Chocolate Macarons</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$20</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chocolate, Biscuits, Nougat</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/fruit-vanilla-ice-cream/">Fruit-Vanilla Ice Cream</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$25</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Vanilla, Various Fruit, Cookies</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/jalapeno-mango-salsa/">Jalapeno-Mango Salsa</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$45</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Mango, Rice, Jalapeno</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-pastrami/">Kung Pao Pastrami</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$12</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Cheese, Garlic, Potato, Pork</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672739246 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 368px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="151" height="167" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-3.png" class="vc_single_image-img attachment-full" alt="q"></div>
-</figure>
-</div>
-</div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447758364055 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/sweet-spicy-pork/">Sweet &amp; Spicy Pork</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$67</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Pork, Spices, Curry </p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-stew/">Chicken Stew</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$15</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Vegetables, Eggs</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/">Chocolate Macarons</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$20</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chocolate, Biscuits, Nougat</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/fruit-vanilla-ice-cream/">Fruit-Vanilla Ice Cream</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$25</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Vanilla, Various Fruit, Cookies</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-pastrami/">Kung Pao Pastrami</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$12</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Cheese, Garlic, Potato, Pork</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/">Masala-Spiced Chickpeas</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$14</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Pork meat, Sauces, Potato</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-doro-wat/">Chicken Doro Wat</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$23</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chicken-stew/">Chicken Stew</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$15</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Vegetables, Eggs</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/">Chocolate Macarons</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$20</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chocolate, Biscuits, Nougat</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/fruit-vanilla-ice-cream/">Fruit-Vanilla Ice Cream</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$25</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Vanilla, Various Fruit, Cookies</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/jalapeno-mango-salsa/">Jalapeno-Mango Salsa</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$45</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Mango, Rice, Jalapeno</p>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-chicken/">Kung Pao Chicken</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$46</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Chicken, Potato, Salad</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">Recomended</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/kung-pao-pastrami/">Kung Pao Pastrami</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$12</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Cheese, Garlic, Potato, Pork</p>
-</div>
-<div class="mkdf-ml-label-holder">
-<span class="mkdf-ml-label">NEW</span>
-</div>
-</div>
-</div>
-</li>
-<li class="mkdf-ml-item clearfix">
-<div class="mkdf-ml-item-content">
-<div class="mkdf-ml-top-holder">
-<div class="mkdf-ml-title-holder">
-<h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/mango-chile-chutney/">Mango-Chile Chutney</a></h4>
-</div>
-<div class="mkdf-ml-dots"></div>
-<div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price">$68</h4>
-</div>
-</div>
-<div class="mkdf-ml-bottom-holder clearfix">
-<div class="mkdf-ml-excerpt-holder">
-<p>Steak, Spices, Sauces </p>
-</div>
-</div>
-</div>
-</li>
+</div></div></div></div></div>
+    <div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447758364055 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
+
+
+
+
+
+
+</ul></div>
+
+
+
+
 </ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div>
 </div>
 </div> 
@@ -1562,7 +664,7 @@ margin-right: 0;
 <div class="mkdf-column-inner">
 <div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget"><a href="https://piquant.qodeinteractive.com/"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-footer.png" alt="logo"></a>
 <div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+<?= $restuarant['name_ar']?>
 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
@@ -1607,137 +709,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 </div><div id="text-3" class="widget mkdf-footer-column-2 widget_text"> <div class="textwidget"><div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div></div>
 </div> </div>
 </div>
-<div class="mkdf-column">
-<div class="mkdf-column-inner">
-<div id="mkdf_instagram_widget-2" class="widget mkdf-footer-column-3 widget_mkdf_instagram_widget"><h4 class="mkdf-footer-widget-title">Instagram</h4> <ul class="mkdf-instagram-feed clearfix mkdf-col-4 ">
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2gyln1nU/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/43093965_1916827798621723_1291503193552138689_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=bhUVmjYWIcYAX-ST409&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT9yXwoBr_uivzULyq96aPgjBiw1gbV849NirsQVN3Zo6g&amp;oe=61C71556" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2fQjHRGS/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42691144_246754759348315_254487827641566810_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=6yUPAJ0vbq8AX_AmWcA&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-j1vQsFXQcfD0GFGnKmslJ-XynYgyA8DGXuEMKmpLwdQ&amp;oe=61C80DC7" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2dsuHQfZ/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42595106_705884559780745_1978305445669430907_n.jpg?_nc_cat=110&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=EyNp676AZJsAX_jZlen&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT9JZ4l9l5uiwiXJRMIVedoknHhh6ya64LKz8HFijq-Qjw&amp;oe=61C74279" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2born_cU/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42080438_2240447655979056_4351826486246174451_n.jpg?_nc_cat=111&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=rgcjAf8rVbQAX-yAGEm&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT94xo0Zwqsx2Lkcbd1jgGePivo-KgadOd9CpA0LrNmdzQ&amp;oe=61C7DCB7" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2Z8mnvlg/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42388782_306112229994288_8631028034354049856_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=vfkLjAxSwngAX8wIIDw&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_94BqsZFKgyPQhyjoTBlCMHNgQkr2D_4qvebhDuXHSmA&amp;oe=61C7FC74" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2X7kndPr/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42340160_890571594486891_7605612084773657126_n.jpg?_nc_cat=109&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=m3MciGdcWHsAX9_E5o0&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8zgWojAHxqn6R_pox7S6FLh6hKYsgpo-hxpm1ivsNcgA&amp;oe=61C8391C" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2WGoHJsh/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42961687_241191326560991_5174934017545570844_n.jpg?_nc_cat=104&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mhG-NxOVMoIAX9cWozq&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-RyhLDMIi1VDeCaiBmNEWW8EkJ-7A8vqoRJm9VVqaueQ&amp;oe=61C72FAB" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-<li>
-<div class="mkdf-instagram-item-holder">
-<a href="https://www.instagram.com/p/Bot2US1HS96/" target="_blank">
-<img src="https://scontent-fml1-1.cdninstagram.com/v/t51.2885-15/42711549_175183406697281_4230654296084625043_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=U3h-ZBHheVIAX9-1xvV&amp;_nc_oc=AQm4SsOUoJRGrbTYoDn2YlEFvsyVqWoumB1ihw8V7zs0rwSDi83BVQs8KetYdGjig4Q&amp;_nc_ht=scontent-fml1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-HJlcCKbS7WIXXAEWXSjLd8mFsJe6k63cYz0hmQvSOAQ&amp;oe=61C87034" alt="">
-<div class="mkdf-instagram-overlay">
-<div class="mkdf-instagram-overlay-inner">
-<div class="mkdf-instagram-overlay-inner2">
-<span class="overlay-icon social-instagram"></span>
-</div>
-</div>
-</div>
-</a>
-</div>
-</li>
-</ul>
-</div> </div>
-</div>
-<div class="mkdf-column">
-<div class="mkdf-column-inner">
-<div id="mkdf_twitter_widget-2" class="widget mkdf-footer-column-4 widget_mkdf_twitter_widget"><h4 class="mkdf-footer-widget-title">Twitter Feed</h4> <ul class="mkdf_twitter_widget">
-<li>
-<div class="twitter_icon">
-<span aria-hidden="true" class="social_twitter"></span>
-</div>
-<div class="mkdf_tweet_text">
-Here’s how you can remove “Powered by #WordPress” from your footer using the Twenty-Twenty #theme. <a target="_blank" href="https://t.co/yfS8BcNYtg">https://t.co/yfS8BcNYtg</a> </div>
-</li>
-</ul>
-</div> </div>
-</div>
+
 </div>
 </div> </div>
 </div>
