@@ -17,8 +17,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'name_ar')->textInput(['maxlength' => true]) ?>
-
     <?php
     echo $form->field($model, 'file')->widget(FileInput::classname(), [
         'options' => [

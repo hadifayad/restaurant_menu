@@ -22,8 +22,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'name_ar') ?>
-
     <?= $form->field($model, 'image') ?>
 
     <div class="form-group">

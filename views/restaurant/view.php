@@ -50,9 +50,7 @@ Pjax::begin(['id' => 'pjax-id']);
                         'attributes' => [
 //                            'id',
                             'name',
-                            'name_ar',
                             'description:ntext',
-                            'description_ar:ntext',
                             'open_time',
                             'close_time',
                         ],
@@ -66,7 +64,6 @@ Pjax::begin(['id' => 'pjax-id']);
                         'model' => $model,
                         'attributes' => [
                             'address:ntext',
-                            'address_ar:ntext',
                             'phone1',
                             'phone2',
                             'phone3',
@@ -82,7 +79,6 @@ Pjax::begin(['id' => 'pjax-id']);
                     DetailView::widget([
                         'model' => $model,
                         'attributes' => [
-                            'about_us_ar:ntext',
                             'facebook:ntext',
                             'instagram:ntext',
                             'location:ntext',

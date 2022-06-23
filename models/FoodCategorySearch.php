@@ -17,7 +17,7 @@ class FoodCategorySearch extends FoodCategory {
     public function rules() {
         return [
             [['id'], 'integer'],
-            [['name', 'name_ar', 'image'], 'safe'],
+            [['name', 'image'], 'safe'],
         ];
     }
 
@@ -69,7 +69,6 @@ class FoodCategorySearch extends FoodCategory {
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name])
-                ->andFilterWhere(['like', 'name_ar', $this->name_ar])
                 ->andFilterWhere(['like', 'image', $this->image]);
 
         return $dataProvider;

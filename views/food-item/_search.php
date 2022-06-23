@@ -22,11 +22,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'title') ?>
 
-    <?= $form->field($model, 'title_ar') ?>
 
     <?= $form->field($model, 'description') ?>
-
-    <?= $form->field($model, 'description_ar') ?>
 
     <?php // echo $form->field($model, 'category_id') ?>
 
@@ -34,11 +31,7 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'restaurant_id') ?>
 
-    <?php // echo $form->field($model, 'price_lb') ?>
-
-    <?php // echo $form->field($model, 'price_usd') ?>
-
-    <?php // echo $form->field($model, 'price_unit') ?>
+    <?php // echo $form->field($model, 'price') ?>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Search'), ['class' => 'btn btn-primary']) ?>

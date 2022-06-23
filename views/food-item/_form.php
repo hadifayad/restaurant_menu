@@ -26,22 +26,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'title_ar')->textInput(['maxlength' => true]) ?>
-
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
-
-<?= $form->field($model, 'description_ar')->textarea(['rows' => 6]) ?>
-
 
     <?php
 //    echo $form->field($model, 'restaurant_id')->textInput() 
     ?>
 
-    <?= $form->field($model, 'price_lb')->textInput() ?>
-
-    <?= $form->field($model, 'price_usd')->textInput() ?>
-
-    <?= $form->field($model, 'price_unit')->textInput() ?>
+    <?= $form->field($model, 'price')->textInput() ?>
 
     <?php
     echo $form->field($model, 'file')->widget(FileInput::classname(), [

@@ -30,18 +30,15 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 //            'id',
             'title',
-            'title_ar',
             'description:ntext',
-            'description_ar:ntext',
             [
                 'attribute' => 'category_id',
                 'value' => 'category.name'
             ],
 //            'image',
 //            'restaurant_id',
-            'price_lb',
-            'price_usd',
-            'price_unit', [
+            'price',
+            [
                 'attribute' => 'image',
                 'format' => "raw",
                 'value' => function($model) {

@@ -22,19 +22,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'name_ar') ?>
-
     <?= $form->field($model, 'description') ?>
-
-    <?= $form->field($model, 'description_ar') ?>
 
     <?php // echo $form->field($model, 'open_time') ?>
 
     <?php // echo $form->field($model, 'close_time') ?>
 
     <?php // echo $form->field($model, 'address') ?>
-
-    <?php // echo $form->field($model, 'address_ar') ?>
 
     <?php // echo $form->field($model, 'phone1') ?>
 
@@ -45,8 +39,6 @@ use yii\widgets\ActiveForm;
     <?php // echo $form->field($model, 'icon') ?>
 
     <?php // echo $form->field($model, 'about_us') ?>
-
-    <?php // echo $form->field($model, 'about_us_ar') ?>
 
     <?php // echo $form->field($model, 'facebook') ?>
 
