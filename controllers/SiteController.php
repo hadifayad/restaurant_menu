@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\Branch;
 use app\models\ContactForm;
 use app\models\Customer;
+use app\models\FoodItem;
 use app\models\JobCard;
 use app\models\JobCardItems;
 use app\models\LoginForm;
@@ -13,6 +14,7 @@ use Composer\XdebugHandler\Status;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
+use yii\helpers\VarDumper;
 use yii\rbac\Item;
 use yii\web\Controller;
 use yii\web\Response;
@@ -231,7 +233,30 @@ class SiteController extends Controller {
         return $this->render('index');
     }
 public function actionMenu(){
-       return $this->render('menu');
+    
+    $categories = \app\models\FoodCategory::find()->where(["restaurant_id"=>1])->asArray()->all();
+    for($i=0 ; $i<sizeof($categories);$i++){
+         $categories[$i]["food"] = FoodItem::find()
+              ->select("food_item.* ,food_category.name_ar as category")
+                ->join("join", "food_category",  "food_category.id = food_item.category_id")
+              ->andWhere(['food_category.restaurant_id'=>1])
+              ->andWhere(['food_item.restaurant_id'=>1])
+              ->andWhere(['food_item.category_id'=>  $categories[$i]['id']])
+                  ->asArray()->all();
+    }
+    
+     
+            
+//             
+//      VarDumper::dump($categories,3,3);
+//      die();
+      
+      $restuarant = \app\models\Restaurant::findOne(["id"=>1]);
+      
+       return $this->renderPartial('menu',[
+           'food' => $categories,
+           'restuarant' => $restuarant,
+       ]);
 }
 public function actionOurMenu(){
        return $this->render('our-menu');
@@ -357,7 +382,7 @@ public function actionOurMenu(){
 
 
         $message = "Hello " . $customer->name . "\r\nYour item : " . $itemName . "\r\nJob Card nb:  " . $item['job_card_id'] . "\r\n Status : " . $statusName . "\r\n You Cant get it from " . $locationName . " Branch";
-        \yii\helpers\VarDumper::dump($message, 3, true);
+        VarDumper::dump($message, 3, true);
         die();
 
         $message = Yii::$app->twilio->sms($customer->phone, $message);
