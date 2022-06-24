@@ -237,7 +237,7 @@ public function actionMenu(){
     $categories = \app\models\FoodCategory::find()->where(["restaurant_id"=>1])->asArray()->all();
     for($i=0 ; $i<sizeof($categories);$i++){
          $categories[$i]["food"] = FoodItem::find()
-              ->select("food_item.* ,food_category.name_ar as category")
+              ->select("food_item.* ,food_category.name as category")
                 ->join("join", "food_category",  "food_category.id = food_item.category_id")
               ->andWhere(['food_category.restaurant_id'=>1])
               ->andWhere(['food_item.restaurant_id'=>1])
