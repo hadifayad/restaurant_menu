@@ -57,26 +57,30 @@ class FoodCategory extends ActiveRecord {
     }
 
     public function uploadFile($file, $categoryId) {
-        if ($this->validate()) {
-            $randomString = Yii::$app->security->generateRandomString();
-            $imageName = $randomString . '.' . $file->extension;
-            $foodCategory = FoodCategory::findOne(["id" => $categoryId]);
-            if ($foodCategory) {
-                $foodCategory->image = $imageName;
-                if ($foodCategory->save()) {
-                    $file->saveAs('categoriesUploads/' . $imageName);
+        if ($file) {
+            if ($this->validate()) {
+                $randomString = Yii::$app->security->generateRandomString();
+                $imageName = $randomString . '.' . $file->extension;
+                $foodCategory = FoodCategory::findOne(["id" => $categoryId]);
+                if ($foodCategory) {
+                    $foodCategory->image = $imageName;
+                    if ($foodCategory->save()) {
+                        $file->saveAs('categoriesUploads/' . $imageName);
+                    } else {
+                        VarDumper::dump($foodCategory->getErrors(), 3, true);
+                        die();
+                    }
                 } else {
-                    VarDumper::dump($foodCategory->getErrors(), 3, true);
+                    VarDumper::dump("food category does not exist", 3, true);
                     die();
                 }
+                //need just one file/picture
+                return true;
             } else {
-                VarDumper::dump("food category does not exist", 3, true);
-                die();
+                return false;
             }
-            //need just one file/picture
-            return true;
         } else {
-            return false;
+            return true;
         }
     }
 

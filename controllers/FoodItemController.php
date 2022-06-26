@@ -64,9 +64,9 @@ class FoodItemController extends Controller {
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate() {
+    public function actionCreate($category_id) {
         $model = new FoodItem();
-
+        $model->category_id = $category_id;
         $user = Users::findOne(["id" => Yii::$app->user->id]);
         if ($user) {
             if ($user["restaurant_id"]) {
@@ -85,9 +85,10 @@ class FoodItemController extends Controller {
 
                         $modelNew = new FoodItem();
                         $modelNew->category_id = $model->category_id;
-                        return $this->render('create', [
-                                    'model' => $modelNew
-                        ]);
+                        return $this->redirect(['menu/edit']);
+//                        return $this->render('create', [
+//                                    'model' => $modelNew
+//                        ]);
                     } else {
                         
                     }
@@ -141,7 +142,8 @@ class FoodItemController extends Controller {
                 VarDumper::dump($model->getErrors(), 3, true);
                 die();
             }
-            return $this->redirect(['view', 'id' => $model->id]);
+//            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['menu/edit']);
         }
 
         return $this->render('update', [
@@ -166,7 +168,8 @@ class FoodItemController extends Controller {
 //                echo 'not directory';
         }
         $model->delete();
-        return $this->redirect(['index']);
+//        return $this->redirect(['index']);
+        return $this->redirect(['menu/edit']);
     }
 
     /**

@@ -34,7 +34,7 @@ class FoodItem extends ActiveRecord {
      */
     public function rules() {
         return [
-            [['title', 'description', 'category_id', 'image', 'restaurant_id', 'price'], 'required'],
+            [['title', 'description', 'category_id', 'restaurant_id', 'price'], 'required'],
             [['description'], 'string'],
             [['category_id', 'restaurant_id', 'price'], 'integer'],
             [['title', 'image'], 'string', 'max' => 200],
@@ -70,26 +70,30 @@ class FoodItem extends ActiveRecord {
     }
 
     public function uploadFile($file, $foodItemId) {
-        if ($this->validate()) {
-            $randomString = Yii::$app->security->generateRandomString();
-            $imageName = $randomString . '.' . $file->extension;
-            $foodItem = FoodItem::findOne(["id" => $foodItemId]);
-            if ($foodItem) {
-                $foodItem->image = $imageName;
-                if ($foodItem->save()) {
-                    $file->saveAs('foodItemsUploads/' . $imageName);
+        if ($file) {
+            if ($this->validate()) {
+                $randomString = Yii::$app->security->generateRandomString();
+                $imageName = $randomString . '.' . $file->extension;
+                $foodItem = FoodItem::findOne(["id" => $foodItemId]);
+                if ($foodItem) {
+                    $foodItem->image = $imageName;
+                    if ($foodItem->save()) {
+                        $file->saveAs('foodItemsUploads/' . $imageName);
+                    } else {
+                        VarDumper::dump($foodItem->getErrors(), 3, true);
+                        die();
+                    }
                 } else {
-                    VarDumper::dump($foodItem->getErrors(), 3, true);
+                    VarDumper::dump("food item does not exist", 3, true);
                     die();
                 }
+                //need just one file/picture
+                return true;
             } else {
-                VarDumper::dump("food item does not exist", 3, true);
-                die();
+                return false;
             }
-            //need just one file/picture
-            return true;
         } else {
-            return false;
+            return true;
         }
     }
 
