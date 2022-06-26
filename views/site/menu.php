@@ -122,31 +122,11 @@ margin-right: 0;
 }</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style>.fluidvids {width: 100%; max-width: 100%; position: relative;}.fluidvids-item {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;}</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/util.js"></script></head>
 <body class="page-template-default page page-id-1452 mkd-core-1.0 mkd-restaurant-1.0 piquant-ver-1.1  mkdf-header-standard mkdf-sticky-header-on-scroll-up mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-dropdown-default mkdf-light-header mkdf-header-standard-border-disable mkdf-top-bar-with-border mkdf-top-bar-in-grid mkdf-overlapping-content-enabled mkdf-side-menu-slide-with-content mkdf-width-370 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
 <section class="mkdf-side-menu right" tabindex="0" style="overflow-y: hidden; outline: none;">
-<div class="mkdf-close-side-menu-holder">
-<div class="mkdf-close-side-menu-holder-inner">
-<a href="#" target="_self" class="mkdf-close-side-menu">
-<span aria-hidden="true" class="icon_close"></span>
-</a>
-</div>
-</div>
-<div id="text-9" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><a href="https://piquant.qodeinteractive.com/"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-footer.png" alt="logo"></a>
-</div>
-</div><div id="nav_menu-2" class="widget mkdf-sidearea widget_nav_menu"><div class="menu-sidearea-menu-container"><ul id="menu-sidearea-menu" class="menu"><li id="menu-item-1239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1239"><a href="https://piquant.qodeinteractive.com/">Original Home</a></li>
-<li id="menu-item-1240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1240"><a href="https://piquant.qodeinteractive.com/about-us/">About Us</a></li>
-<li id="menu-item-1241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1241"><a href="https://piquant.qodeinteractive.com/meet-the-chefs/">Meet The Chefs</a></li>
-<li id="menu-item-1242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1242"><a href="https://piquant.qodeinteractive.com/our-services/">Our Services</a></li>
-<li id="menu-item-1243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1243"><a href="https://piquant.qodeinteractive.com/shop/">Shop</a></li>
-<li id="menu-item-2825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825"><a href="https://piquant.qodeinteractive.com/landing/">Landing</a></li>
-</ul></div></div><div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b"><?= $restuarant['name']?></span>
+<div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b"><?= $restuarant['name']?></span>
 <div class="mkdf-separator-holder clearfix  mkdf-separator-center">
 <div class="mkdf-separator" style="border-color: rgba(255,255,255,0.18);width: 100%;border-bottom-width: 1px;margin-top: 20px;margin-bottom: 20px"></div>
 </div>
-<span style="color:#fff"> FOLLOW US</span>
-<span class="mkdf-icon-shortcode normal" style="margin: 0 1px 0 10px" data-hover-color="#fcf033" data-color="#9b9b9b">
-<a href="https://www.facebook.com/QodeInteractive/" target="_blank" rel="noopener noreferrer">
-<span class="mkdf-image-icon">
-<span aria-hidden="true" class="mkdf-icon-font-elegant social_facebook mkdf-icon-element" style="color: #9b9b9b;font-size:12px"></span> </span>
-</a>
+
 </span>
 
 
@@ -154,396 +134,13 @@ margin-right: 0;
 </div>
 </div></section>
 <div class="mkdf-wrapper">
-<div class="mkdf-wrapper-inner">
-<div class="mkdf-top-bar">
-<div class="mkdf-grid">
-<div class="mkdf-grid-inner clearfix">
-<div class="mkdf-vertical-align-containers mkdf-50-50">
-<div class="mkdf-position-left">
-<div class="mkdf-position-left-inner">
-<div id="text-6" class="widget widget_text mkdf-top-bar-widget"> <div class="textwidget"><p>FOLLOW US
-<span class="mkdf-icon-shortcode normal" style="margin: 0 15px 0 15px" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="https://www.facebook.com/QodeInteractive/" target="_blank" rel="noopener noreferrer">
-<span class="mkdf-image-icon">
-<span aria-hidden="true" class="mkdf-icon-font-elegant social_facebook mkdf-icon-element" style="color: #e6e6e6;font-size:12px"></span> </span>
-</a>
-</span>
-<span class="mkdf-icon-shortcode normal" style="margin: 0 15px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="" target="_blank" rel="noopener noreferrer">
-<span class="mkdf-image-icon">
-<span aria-hidden="true" class="mkdf-icon-font-elegant social_twitter mkdf-icon-element" style="color: #e6e6e6;font-size:12px"></span> </span>
-</a>
-</span>
-<span class="mkdf-icon-shortcode normal" style="margin: 0 13px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="" target="_blank" rel="noopener noreferrer">
-<span class="mkdf-image-icon">
-<span aria-hidden="true" class="mkdf-icon-font-elegant social_instagram mkdf-icon-element" style="color: #e6e6e6;font-size:12px"></span> </span>
-</a>
-</span>
-<span class="mkdf-icon-shortcode normal" style="margin: 0 15px 0 0" data-hover-color="#ffffff" data-color="#e6e6e6">
-<a href="" target="_blank" rel="noopener noreferrer">
-<span class="mkdf-image-icon">
-<i class="mkdf-icon-font-awesome fa fa-tripadvisor mkdf-icon-element" style="color: #e6e6e6;font-size:14px"></i> </span>
-</a>
-</span>
-</p>
-</div>
-</div> </div>
-</div>
-<div class="mkdf-position-right">
-<div class="mkdf-position-right-inner">
-<div id="text-7" class="widget widget_text mkdf-top-bar-widget">
-</div>
- </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<header class="mkdf-page-header">
-<div class="mkdf-menu-area" style="background-color: rgba(255, 255, 255, 0);border-bottom: none">
-<div class="mkdf-grid">
-<div class="mkdf-vertical-align-containers">
-<div class="mkdf-position-left">
-<div class="mkdf-position-left-inner">
-<div class="mkdf-logo-wrapper">
-<a href="https://piquant.qodeinteractive.com/" style="height: 40px;">
-<img class="mkdf-normal-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-normal.png" alt="logo">
-<img class="mkdf-dark-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-normal.png" alt="dark logo"> <img class="mkdf-light-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-light.png" alt="light logo"> </a>
-</div>
-</div>
-</div>
 
-
-                                                            </div>
-                                                </div>
-                                            </div>
-<div class="mkdf-sticky-header">
-<div class="mkdf-sticky-holder">
-<div class="mkdf-grid">
-<div class=" mkdf-vertical-align-containers">
-<div class="mkdf-position-left">
-<div class="mkdf-position-left-inner">
-<div class="mkdf-logo-wrapper">
-<a href="https://piquant.qodeinteractive.com/" style="height: 40px;">
-<img class="mkdf-normal-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-light.png" alt="logo">
-<img class="mkdf-dark-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-normal.png" alt="dark logo"> <img class="mkdf-light-logo" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-light.png" alt="light logo"> </a>
-</div>
-<nav class="mkdf-main-menu mkdf-drop-down mkdf-sticky-nav">
-<ul id="menu-top-menu-1" class="clearfix"><li id="sticky-nav-menu-item-207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Home</span></span><span class="plus"></span></span></a>
-<div class="second" style="height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://piquant.qodeinteractive.com/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Original</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/health-food-home/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Health Food</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/bar-cafe-home/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Bar &amp; Cafe<span class="mkdf-menu-featured-icon icon_star" aria-hidden="true"></span></span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/restaurant-home/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Restaurant</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/bbq-home/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">BBQ Home</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2051" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/fullscreen-home/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Fullscreen</span></span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-2335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Reservations</span></span><span class="plus"></span></span></a>
-<div class="second" style="height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/reservations-contact-form/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Contact Form</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/reservations-open-table/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Open Table</span></span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-204" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow"><a href="#" class=" current  no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Menu</span></span><span class="plus"></span></span></a>
-<div class="second" style="height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-1477" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1452 current_page_item "><a href="https://piquant.qodeinteractive.com/standard-list/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Standard List</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/menu-gallery/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Menu Gallery</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/gallery-list-combo/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Gallery &amp; List Combo</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2076" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/list-with-image/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">List With Image</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2266" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Single Menu Item</span></span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-203" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Pages</span></span><span class="plus"></span></span></a>
-<div class="second" style="left: -189px; height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 230px;"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">About Pages</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/about-us/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">About Us</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-646" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/our-story/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Our Story</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Our Services</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/what-we-offer/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">What We Offer</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 230px;"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Info Pages</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-709" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/meet-the-chefs/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Meet The Chefs</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2072" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/food-gallery/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Food Gallery</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/contact-page/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Contact Page</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/contact-page-2/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Contact Page 2</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-214" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 230px;"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Title Examples</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/system-title/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">System Title</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/classic-title/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Classic Title</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1599" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/overlapping-title/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Overlapping Title</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1131" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/graphic-title/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Graphic Title</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1605" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/parallax-title/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Parallax Title</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-2339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 230px;"><a href="#" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Today’s Specialty</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a><div class="widget widget_text"> <div class="textwidget"><div class="vc_empty_space" style="height: 4px"><span class="vc_empty_space_inner"></span></div>
-<a style="padding: 0; margin: 0" href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/dropdown.jpg" alt="featured-post"></a>
-</div>
-</div>
-<ul>
-<li id="sticky-nav-menu-item-2340" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">See The Recipe</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Blog</span></span><span class="plus"></span></span></a>
-<div class="second" style="height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/latest-news/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Latest News</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Post Types</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1489" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/grilled-chorizo-with-spicy-sauce/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Standard</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1710" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/brazilian-burger-with-egg/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Gallery</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1708" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/carne-asada-tacos/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Audio</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1709" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/green-chile-and-chicken-stew/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Video</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1490" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/julia-child/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Quote</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2151" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/sweet-and-sour-pork-chops/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Link</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Shop</span></span><span class="plus"></span></span></a>
-<div class="second" style="height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-693" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Shop With Sidebar</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-three-columns/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Three Columns</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-four-columns/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Four Columns</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-four-columns-full-width/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Four Columns Full Width</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-944" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://piquant.qodeinteractive.com/product/grilled-chorizo/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Single Product</span></span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Elements</span></span><span class="plus"></span></span></a>
-<div class="second  background_image" style="background-image: url(&quot;https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/dropdown-backgorund1.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-position: center center; left: -189px; height: 0px;"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 306px;"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Typography &amp; Icons</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/headings/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Headings</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/columns/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Columns</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-939" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/blockquotes/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Blockquotes</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-945" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/custom-fonts/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Custom Fonts</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/lists/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Lists</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/separators/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Separators</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/icon/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Icon</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 306px;"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Classic Elements</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/tabbed-gallery/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Tabbed Gallery<span class="mkdf-menu-featured-icon icon_star" aria-hidden="true"></span></span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2039" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/restaurant-menu/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Restaurant Menu<span class="mkdf-menu-featured-icon icon_star" aria-hidden="true"></span></span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/client-logo-carousel/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Client Logo Carousel</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/blog-posts/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Blog Posts</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/testimonials/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Testimonials</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/meet-the-chefs/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Team</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1061" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/google-maps/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Google Maps</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 306px;"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">UI Elements</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1267" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/interface-colors/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Interface Colors</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1069" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/buttons/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Buttons</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/accordions/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Accordions</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1066" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/tabs/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Tabs</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1718" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/forms/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Forms<span class="mkdf-menu-featured-icon icon_star" aria-hidden="true"></span></span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/call-to-action/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Call To Action</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-1347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" style="height: 306px;"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Graphic Elements</span></span><span class="plus"></span><i class="q_menu_arrow fa fa-angle-right"></i></span></a>
-<ul>
-<li id="sticky-nav-menu-item-2585" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/working-hours/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Working Hours</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/interactive-banners/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Interactive Banners</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/pricing-tables/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Pricing Tables</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1354" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/counters/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Counters</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/skill-bars/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Skill Bars</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1386" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/pie-charts/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Pie Charts</span></span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1400" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/process/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon null fa"></i></span><span class="item_text">Process</span></span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-</ul></nav>
-</div>
-</div>
-<div class="mkdf-position-right">
-<div class="mkdf-position-right-inner">
-<div id="mkdf_side_area_opener-3" class="widget widget_mkdf_side_area_opener mkdf-sticky-right"> <a class="mkdf-side-menu-button-opener medium" href="javascript:void(0)">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_menu mkdf-side-area-icon"></span> </a>
-</div> </div>
-</div>
-</div>
 </div>
 </div>
 </div>
 </header>
-<header class="mkdf-mobile-header mkdf-animate-mobile-header" style="margin-bottom: 0px;">
-<div class="mkdf-mobile-header-inner">
-<div class="mkdf-mobile-header-holder">
-<div class="mkdf-grid">
-<div class="mkdf-vertical-align-containers">
-<div class="mkdf-mobile-menu-opener">
-<a href="javascript:void(0)">
-<span class="mkdf-mobile-opener-icon-holder">
-<i class="mkdf-icon-font-awesome fa fa-bars "></i> </span>
-</a>
-</div>
-<div class="mkdf-position-center">
-<div class="mkdf-position-center-inner">
-<div class="mkdf-mobile-logo-wrapper">
-<a href="https://piquant.qodeinteractive.com/" style="height: 40px">
-<img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-normal.png" alt="mobile-logo">
-</a>
-</div>
-</div>
-</div>
-<div class="mkdf-position-right">
-<div class="mkdf-position-right-inner">
-</div>
-</div>
-</div> 
-</div>
-</div>
-<nav class="mkdf-mobile-nav">
-<div class="mkdf-grid">
-<ul id="menu-top-menu-2" class=""><li id="mobile-menu-item-207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Home</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://piquant.qodeinteractive.com/" class=""><span>Original</span></a></li>
-<li id="mobile-menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/health-food-home/" class=""><span>Health Food</span></a></li>
-<li id="mobile-menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/bar-cafe-home/" class=""><span>Bar &amp; Cafe</span></a></li>
-<li id="mobile-menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/restaurant-home/" class=""><span>Restaurant</span></a></li>
-<li id="mobile-menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/bbq-home/" class=""><span>BBQ Home</span></a></li>
-<li id="mobile-menu-item-2051" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/fullscreen-home/" class=""><span>Fullscreen</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-2335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Reservations</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/reservations-contact-form/" class=""><span>Contact Form</span></a></li>
-<li id="mobile-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/reservations-open-table/" class=""><span>Open Table</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-204" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub"><h4><span>Menu</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-1477" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1452 current_page_item "><a href="https://piquant.qodeinteractive.com/standard-list/" class=""><span>Standard List</span></a></li>
-<li id="mobile-menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/menu-gallery/" class=""><span>Menu Gallery</span></a></li>
-<li id="mobile-menu-item-1629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/gallery-list-combo/" class=""><span>Gallery &amp; List Combo</span></a></li>
-<li id="mobile-menu-item-2076" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/list-with-image/" class=""><span>List With Image</span></a></li>
-<li id="mobile-menu-item-2266" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/" class=""><span>Single Menu Item</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-203" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Pages</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>About Pages</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/about-us/" class=""><span>About Us</span></a></li>
-<li id="mobile-menu-item-646" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/our-story/" class=""><span>Our Story</span></a></li>
-<li id="mobile-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/our-services/" class=""><span>Our Services</span></a></li>
-<li id="mobile-menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/what-we-offer/" class=""><span>What We Offer</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Info Pages</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-709" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/meet-the-chefs/" class=""><span>Meet The Chefs</span></a></li>
-<li id="mobile-menu-item-2072" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/food-gallery/" class=""><span>Food Gallery</span></a></li>
-<li id="mobile-menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/contact-page/" class=""><span>Contact Page</span></a></li>
-<li id="mobile-menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/contact-page-2/" class=""><span>Contact Page 2</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-214" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Title Examples</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/system-title/" class=""><span>System Title</span></a></li>
-<li id="mobile-menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/classic-title/" class=""><span>Classic Title</span></a></li>
-<li id="mobile-menu-item-1599" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/overlapping-title/" class=""><span>Overlapping Title</span></a></li>
-<li id="mobile-menu-item-1131" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/graphic-title/" class=""><span>Graphic Title</span></a></li>
-<li id="mobile-menu-item-1605" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/parallax-title/" class=""><span>Parallax Title</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-2339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Today’s Specialty</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-2340" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/menu-item/masala-spiced-chickpeas/" class=""><span>See The Recipe</span></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li id="mobile-menu-item-205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Blog</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-2338" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/latest-news/" class=""><span>Latest News</span></a></li>
-<li id="mobile-menu-item-1488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Post Types</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-1489" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/grilled-chorizo-with-spicy-sauce/" class=""><span>Standard</span></a></li>
-<li id="mobile-menu-item-1710" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/brazilian-burger-with-egg/" class=""><span>Gallery</span></a></li>
-<li id="mobile-menu-item-1708" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/carne-asada-tacos/" class=""><span>Audio</span></a></li>
-<li id="mobile-menu-item-1709" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/green-chile-and-chicken-stew/" class=""><span>Video</span></a></li>
-<li id="mobile-menu-item-1490" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/julia-child/" class=""><span>Quote</span></a></li>
-<li id="mobile-menu-item-2151" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://piquant.qodeinteractive.com/sweet-and-sour-pork-chops/" class=""><span>Link</span></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li id="mobile-menu-item-206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Shop</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-693" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop/" class=""><span>Shop With Sidebar</span></a></li>
-<li id="mobile-menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-three-columns/" class=""><span>Three Columns</span></a></li>
-<li id="mobile-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-four-columns/" class=""><span>Four Columns</span></a></li>
-<li id="mobile-menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/shop-four-columns-full-width/" class=""><span>Four Columns Full Width</span></a></li>
-<li id="mobile-menu-item-944" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://piquant.qodeinteractive.com/product/grilled-chorizo/" class=""><span>Single Product</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Elements</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Typography &amp; Icons</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/headings/" class=""><span>Headings</span></a></li>
-<li id="mobile-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/columns/" class=""><span>Columns</span></a></li>
-<li id="mobile-menu-item-939" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/blockquotes/" class=""><span>Blockquotes</span></a></li>
-<li id="mobile-menu-item-945" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/custom-fonts/" class=""><span>Custom Fonts</span></a></li>
-<li id="mobile-menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/lists/" class=""><span>Lists</span></a></li>
-<li id="mobile-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/separators/" class=""><span>Separators</span></a></li>
-<li id="mobile-menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/icon/" class=""><span>Icon</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Classic Elements</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/tabbed-gallery/" class=""><span>Tabbed Gallery</span></a></li>
-<li id="mobile-menu-item-2039" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/restaurant-menu/" class=""><span>Restaurant Menu</span></a></li>
-<li id="mobile-menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/client-logo-carousel/" class=""><span>Client Logo Carousel</span></a></li>
-<li id="mobile-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/blog-posts/" class=""><span>Blog Posts</span></a></li>
-<li id="mobile-menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/testimonials/" class=""><span>Testimonials</span></a></li>
-<li id="mobile-menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/meet-the-chefs/" class=""><span>Team</span></a></li>
-<li id="mobile-menu-item-1061" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/google-maps/" class=""><span>Google Maps</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>UI Elements</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-1267" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/interface-colors/" class=""><span>Interface Colors</span></a></li>
-<li id="mobile-menu-item-1069" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/buttons/" class=""><span>Buttons</span></a></li>
-<li id="mobile-menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/accordions/" class=""><span>Accordions</span></a></li>
-<li id="mobile-menu-item-1066" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/tabs/" class=""><span>Tabs</span></a></li>
-<li id="mobile-menu-item-1718" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/forms/" class=""><span>Forms</span></a></li>
-<li id="mobile-menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/call-to-action/" class=""><span>Call To Action</span></a></li>
-</ul>
-</li>
-<li id="mobile-menu-item-1347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h4><span>Graphic Elements</span></h4><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-2585" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/working-hours/" class=""><span>Working Hours</span></a></li>
-<li id="mobile-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/interactive-banners/" class=""><span>Interactive Banners</span></a></li>
-<li id="mobile-menu-item-1062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/pricing-tables/" class=""><span>Pricing Tables</span></a></li>
-<li id="mobile-menu-item-1354" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/counters/" class=""><span>Counters</span></a></li>
-<li id="mobile-menu-item-1372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/skill-bars/" class=""><span>Skill Bars</span></a></li>
-<li id="mobile-menu-item-1386" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/pie-charts/" class=""><span>Pie Charts</span></a></li>
-<li id="mobile-menu-item-1400" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://piquant.qodeinteractive.com/process/" class=""><span>Process</span></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul> </div>
-</nav>
-</div>
-</header> 
-<a id="mkdf-back-to-top" href="#" class="on">
-<span class="mkdf-back-to-top-text">Top</span>
-<span aria-hidden="true" class="arrow_carrot-up"></span>
-</a>
+
+
 <div class="mkdf-content" style="margin-top: -146px">
 <div class="mkdf-content-inner">
 <div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url(&quot;https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-img-1.jpg&quot;); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
@@ -554,8 +151,8 @@ margin-right: 0;
 <div class="mkdf-title-subtitle-holder" style="">
 <div class="mkdf-title-subtitle-holder-inner">
 <div class="mkdf-title-area-graphic-holder">
-<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
-<span class="mkdf-subtitle" style="color:#ffffff;"><span><?= $restuarant['name_ar']?></span></span>
+<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
+<span class="mkdf-subtitle" style="color:#ffffff;"><span><?= $restuarant['name']?></span></span>
 </div>
 </div>
 </div>
@@ -597,16 +194,16 @@ margin-right: 0;
                            <div class="mkdf-ml-top-holder">
                            <div class="mkdf-ml-title-holder">
                                 <h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/"><?= $food[$j]['food'][$i]["title"]?></a></h4>
+<a href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
 </div>
 <div class="mkdf-ml-dots"></div>
 <div class="mkdf-ml-price-holder">
-<h4 class="mkdf-ml-price"><?= $food[$j]['food'][$i]["price_lb"]?></h4>
+<h4 class="mkdf-ml-price"><?= $food[$j]['food'][$i]["price"]?></h4>
 </div>
 </div>
 <div class="mkdf-ml-bottom-holder clearfix">
 <div class="mkdf-ml-excerpt-holder">
-<p><?= $food[$j]['food'][$i]["description_ar"] ?></p>
+<p><?= $food[$j]['food'][$i]["description"] ?></p>
 </div>
 </div>
 </div>
@@ -620,16 +217,24 @@ margin-right: 0;
 
                             </ul>
                         
-                        
-                        <?php   }?>
-</div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div>
+                          <?php   }?>
+                       <!--///-->
+</div>
+                    <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div>
 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12"><div class="vc_column-inner">
-        <div class="wpb_wrapper"><div class="mkdf-menu-list"></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div><div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672739246 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 368px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+        <div class="wpb_wrapper">
+            <div class="mkdf-menu-list"></div>
+            <div class="vc_empty_space" style="height: 40px">
+                <span class="vc_empty_space_inner"></span>
+            </div>
+        </div>
+    </div> 
+</div>
+    </div>
+</div>
+    <div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672739246 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 368px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-    <!<!-- imagee -->
-<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="151" height="167" src="" class="vc_single_image-img attachment-full" alt="q"></div>
-</figure>
+
 </div>
 </div></div></div></div></div>
     <div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447758364055 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
@@ -644,7 +249,11 @@ margin-right: 0;
 
 
 
-</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div>
+</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
+
+
+</div>
+   
 </div>
 </div> 
 </div> 
@@ -662,9 +271,11 @@ margin-right: 0;
 <div class="mkdf-four-columns-inner">
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget"><a href="https://piquant.qodeinteractive.com/"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-footer.png" alt="logo"></a>
+<div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget">
+        <a href="">
+            <img src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" alt="logo"></a>
 <div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
-<?= $restuarant['name_ar']?>
+<?= $restuarant['name']?>
 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
@@ -678,37 +289,33 @@ margin-right: 0;
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
-<p style="color:#ffffff;font-size:12px"> 1-444-123-4559</p>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['phone1']?></p>
 </div>
 <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_pin mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
-<p style="color:#ffffff;font-size:12px"> Raymond Boulevard 224, New York</p>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['phone2']?></p>
+</div>
+<div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['address']?></p>
+</div><!-- comment -->
+<div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></p>
 </div>
 </div>
 </div> </div>
 </div>
-<div class="mkdf-column">
-<div class="mkdf-column-inner">
-<div id="recent-posts-3" class="widget mkdf-footer-column-2 widget_recent_entries"> <h4 class="mkdf-footer-widget-title">Recent Posts</h4> <ul>
-<li>
-<a href="https://piquant.qodeinteractive.com/chicken-tinga-nachos-2/">Chicken Tinga Nachos</a>
-</li>
-<li>
-<a href="https://piquant.qodeinteractive.com/sweet-and-sour-pork-chops-2/">Sweet and Sour Pork Chops</a>
-</li>
-<li>
-<a href="https://piquant.qodeinteractive.com/green-chile-and-chicken-stew-2/">Green Chile And Chicken Stew</a>
-</li>
-<li>
-<a href="https://piquant.qodeinteractive.com/pecan-pie-macarons-2/">Pecan Pie Macarons</a>
-</li>
-</ul>
-</div><div id="text-3" class="widget mkdf-footer-column-2 widget_text"> <div class="textwidget"><div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div></div>
-</div> </div>
-</div>
+
 
 </div>
 </div> </div>
@@ -723,9 +330,9 @@ margin-right: 0;
 <div class="mkdf-two-columns-50-50-inner">
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-4" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget">© 2015 <a style="color: #ffffff;" href="https://qodeinteractive.com/" target="_blank" rel="noopener noreferrer">Qode Interactive</a>, All Rights Reserved</div>
+<div id="text-4" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://codeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
 </div> </div>
-</div>
+</div
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-5" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget"><p>Follow Us
+
