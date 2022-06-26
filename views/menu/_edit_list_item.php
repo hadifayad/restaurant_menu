@@ -18,16 +18,30 @@ use yii\widgets\ListView;
             <?php
             $iconPath = Yii::getAlias('@web/categoriesUploads/') . $model->image;
             ?>
-            <img style="display: inline-block; object-fit: cover;" height='20' width="30" src='<?= $iconPath ?>'/>
+            <img style="display: inline-block; object-fit: cover;" height='30' width="80" src='<?= $iconPath ?>' />
             <label><?= Html::encode($model->name); ?></label>
-            <div class="pull-right">
+            <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
+                <?=
+                Html::a('<span class="glyphicon glyphicon-plus"></span>', ["food-item/create", "category_id" => $model->id])
+                ?>
+            </div>
+            <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
                 <?=
                 Html::a('<span class="glyphicon glyphicon-edit"></span>', ["food-category/update", "id" => $model->id])
                 ?>
             </div>
+            <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
+                <?=
+                Html::a('<span class="glyphicon glyphicon-remove"></span>', ["food-category/delete", "id" => $model->id], [
+                    'data' => [
+                        'confirm' => 'Are you sure ?',
+                        'method' => 'post',
+            ]])
+                ?>
+            </div>
         </div>
         <div class="panel panel-body" style="margin: 0px;">
-            <div style="margin-left: 50px;">
+            <div style="margin-left: 0px;">
 
                 <?php
                 $searchModel = new FoodItemSearch();
@@ -45,7 +59,7 @@ use yii\widgets\ListView;
                     'query' => $query,
                 ]);
 
-
+                echo '<ol>';
                 echo ListView::widget([
                     'dataProvider' => $dataProvider,
                     'options' => [
@@ -55,23 +69,11 @@ use yii\widgets\ListView;
                     ],
                     'layout' => "{items}",
                     'itemView' => '_edit_list_item_detail',
-//        'filterModel' => $searchModel,
-//        'columns' => [
-//            ['class' => 'yii\grid\SerialColumn'],
-////            'id',
-//            'name',
-//            [
-//                'attribute' => 'image',
-//                'format' => "raw",
-//                'value' => function($model) {
-//                    $iconPath = Yii::getAlias('@web/categoriesUploads/') . $model->image;
-//                    return "<img  height='40' src='$iconPath'/>";
-//                }
-//            ],
-//            ['class' => 'yii\grid\ActionColumn'],
-//        ],
                 ]);
+                echo '</ol>';
                 ?>
+
+
             </div>
 
 

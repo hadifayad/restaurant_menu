@@ -89,7 +89,8 @@ class FoodCategoryController extends Controller {
 
                 if ($model->save()) {
                     if ($model->uploadFile($file, $model->primaryKey)) {
-                        return $this->redirect(['view', 'id' => $model->id]);
+//                        return $this->redirect(['view', 'id' => $model->id]);
+                        return $this->redirect(['menu/edit']);
                     } else {
                         
                     }
@@ -143,7 +144,8 @@ class FoodCategoryController extends Controller {
                 VarDumper::dump($model->getErrors(), 3, true);
                 die();
             }
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['menu/edit']);
+//            return $this->redirect(['view', 'id' => $model->id]);
         }
 
 
@@ -169,7 +171,9 @@ class FoodCategoryController extends Controller {
 //                echo 'not directory';
         }
         $model->delete();
-        return $this->redirect(['index']);
+        return $this->redirect(['menu/edit']);
+
+//        return $this->redirect(['index']);
     }
 
     /**
