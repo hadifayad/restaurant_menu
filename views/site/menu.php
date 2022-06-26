@@ -92,10 +92,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         </style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
         <meta name="generator" content="Powered by Slider Revolution 5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-        <link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-150x150.png" sizes="32x32">
-        <link rel="icon" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png" sizes="192x192">
+        <link rel="icon" href="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" sizes="32x32">
+        <link rel="icon" href="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" sizes="192x192">
         <link rel="apple-touch-icon-precomposed" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-180x180.png">
-        <meta name="msapplication-TileImage" content="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-300x300.png">
+        <meta name="msapplication-TileImage" content="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>">
         <style type="text/css" id="mkdf-custom-css">.mkdf-single-image-hover a {
                 position: relative;
             }
@@ -122,7 +122,9 @@ margin-right: 0;
 }</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style>.fluidvids {width: 100%; max-width: 100%; position: relative;}.fluidvids-item {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;}</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/util.js"></script></head>
 <body class="page-template-default page page-id-1452 mkd-core-1.0 mkd-restaurant-1.0 piquant-ver-1.1  mkdf-header-standard mkdf-sticky-header-on-scroll-up mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-dropdown-default mkdf-light-header mkdf-header-standard-border-disable mkdf-top-bar-with-border mkdf-top-bar-in-grid mkdf-overlapping-content-enabled mkdf-side-menu-slide-with-content mkdf-width-370 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
 <section class="mkdf-side-menu right" tabindex="0" style="overflow-y: hidden; outline: none;">
-<div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b"><?= $restuarant['name']?></span>
+    
+
+<div id="text-8" class="widget mkdf-sidearea widget_text"> <div class="textwidget"><span style="color:#9b9b9b; font-size: xxx-large!important;"><?= $restuarant['name']?></span>
 <div class="mkdf-separator-holder clearfix  mkdf-separator-center">
 <div class="mkdf-separator" style="border-color: rgba(255,255,255,0.18);width: 100%;border-bottom-width: 1px;margin-top: 20px;margin-bottom: 20px"></div>
 </div>
@@ -143,7 +145,7 @@ margin-right: 0;
 
 <div class="mkdf-content" style="margin-top: -146px">
 <div class="mkdf-content-inner">
-<div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url(&quot;https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-img-1.jpg&quot;); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
+<div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url(http://5.189.150.68/restaurant_menu/web/images/menubg.jpg); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
 <div class="mkdf-title-image"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-img-1.jpg" alt="&nbsp;"> </div>
 <div class="mkdf-title-holder" style="height:392px;padding-top: 146px;">
 <div class="mkdf-container clearfix">
@@ -151,8 +153,8 @@ margin-right: 0;
 <div class="mkdf-title-subtitle-holder" style="">
 <div class="mkdf-title-subtitle-holder-inner">
 <div class="mkdf-title-area-graphic-holder">
-<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
-<span class="mkdf-subtitle" style="color:#ffffff;"><span><?= $restuarant['name']?></span></span>
+<img style ="border-radius: 50%;"width="207" height="133" src="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
+<span class="mkdf-subtitle" style="color:#ffffff;font-size: xx-large"><span><?= $restuarant['name']?></span></span>
 </div>
 </div>
 </div>
@@ -178,6 +180,13 @@ margin-right: 0;
                         <?php 
                         for($j=0 ;$j<sizeof($food);$j++){
                             ?>
+                        <div data-mkdf-parallax-speed="1" style ="background-image: url(<?= "/restaurant_menu/web/categoriesUploads/".$food[$j]['image']?>) !important;"class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672721478 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 96px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="254" height="201" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png" class="vc_single_image-img attachment-full" alt="q" srcset="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png 254w, https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2-180x142.png 180w" sizes="(max-width: 254px) 100vw, 254px"></div>
+</figure>
+</div>
+</div></div></div></div></div>
                         <div class="mkdf-mlw-title-holder mkdf-mlw-title-holder-">
                             <h2 class="mkdf-mlw-title"><?= $food[$j]['name']?></h2>
                             <span class="mkdf-mlw-border">
@@ -217,6 +226,7 @@ margin-right: 0;
 
                             </ul>
                         
+                        
                           <?php   }?>
                        <!--///-->
 </div>
@@ -232,11 +242,7 @@ margin-right: 0;
 </div>
     </div>
 </div>
-    <div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672739246 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 368px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-
-</div>
-</div></div></div></div></div>
+    
     <div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447758364055 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
 
 
@@ -261,7 +267,9 @@ margin-right: 0;
 </div>
 </div> 
 </div> 
+
 <footer>
+  
 <div class="mkdf-footer-inner clearfix">
 <div class="mkdf-footer-top-holder">
 <div class="mkdf-footer-top ">
@@ -273,45 +281,104 @@ margin-right: 0;
 <div class="mkdf-column-inner">
 <div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget">
         <a href="">
-            <img src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" alt="logo"></a>
+            <img style ="    height: 120px;  border-radius: 50%;"src="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" alt="Avatar"></a>
 <div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
-<?= $restuarant['name']?>
+<p style="font-size: xx-large;" ><?= $restuarant['name']?></p>
 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
-<div class="mkdf-icon-list-item">
-<div class="mkdf-icon-list-icon-holder">
-<div class="mkdf-icon-list-icon-holder-inner clearfix">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_mail mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
-</div>
-<p style="color:#ffffff;font-size:12px"> piquant@qodeinteractive.com</p>
-</div>
-<div class="mkdf-icon-list-item">
+<?php if($restuarant['phone1']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
 <p style="color:#ffffff;font-size:12px"><?= $restuarant['phone1']?></p>
 </div>
-<div class="mkdf-icon-list-item">
+        <?php 
+}?>
+
+<?php if($restuarant['phone2']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
 <p style="color:#ffffff;font-size:12px"><?= $restuarant['phone2']?></p>
 </div>
-<div class="mkdf-icon-list-item">
+        <?php 
+}?>
+
+<?php if($restuarant['address']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
 <p style="color:#ffffff;font-size:12px"><?= $restuarant['address']?></p>
 </div><!-- comment -->
-<div class="mkdf-icon-list-item">
+        <?php 
+}?>
+
+<?php if($restuarant['open_time']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
 <p style="color:#ffffff;font-size:12px"><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></p>
 </div>
+        <?php 
+}?>
+
+<?php if($restuarant['facebook']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+             <a href="<?= $restuarant['facebook']?>">
+                 <p style="color:#ffffff;font-size:12px"><?= $restuarant['facebook']?></p></a>
+</div>
+        <?php 
+}?>
+
+<?php if($restuarant['instagram']){
+    
+    ?>
+            <div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+    <div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+                <a href="<?= $restuarant['instagram']?>">
+                    <p style="color:#ffffff;font-size:12px"><?= $restuarant['instagram']?></p></a>
+</div>
+    <?php 
+}?>
+
+<?php if($restuarant['location']){
+    
+    ?>
+        <div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+    <iframe src=”<?= $restuarant['location']?>” width=”600” height=”450” frameborder=”0” style=”border:0;” allowfullscreen=”" aria-hidden="false" tabindex="0"></iframe>
+
+</div>
+        <?php 
+}?>
+
 </div>
 </div> </div>
 </div>

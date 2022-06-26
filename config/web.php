@@ -1,7 +1,5 @@
 <?php
 
-use kartik\datecontrol\DateControl;
-
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -58,20 +56,20 @@ $config = [
                 ],
             ],
         ],
-//        'urlManager' => [
-//            'class' => 'yii\web\UrlManager',
-//            // Disable index.php
-//            'showScriptName' => false,
-//            // Disable r= routes
-//            'enablePrettyUrl' => true,
-//            'rules' => [
-//                '<controller:\w+>/<id:\d+>' => '<controller>/view',
-//                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
-//                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
-//                '<controller:[\w-]+>/<action:[\w-]+>/<id:\d+>' => '<controller>/<action>',
-////                '<controller:\w+>/<action:\w+>/<id:\d+>/<id1:\d+>/' => '<controller>/<action>',
-//            ],
-//        ],
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            // Disable index.php
+            'showScriptName' => false,
+            // Disable r= routes
+            'enablePrettyUrl' => true,
+            'rules' => [
+                '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                '<controller:[\w-]+>/<action:[\w-]+>/<id:\d+>' => '<controller>/<action>',
+//                '<controller:\w+>/<action:\w+>/<id:\d+>/<id1:\d+>/' => '<controller>/<action>',
+            ],
+        ],
         'i18n' => [
             'translations' => [
                 '*' => [
@@ -90,6 +88,10 @@ $config = [
 //            'enablePrettyUrl' => true,
 //            'showScriptName' => false,
 //            'rules' => [
+//                    [
+//                    'allow' => true,
+//                    'roles' => ['@'],
+//                ],
 //            ],
 //        ],
 //        'sms' => [
@@ -145,7 +147,7 @@ $config = [
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
-            '*'
+            '*',
 //            'api/*',
 //            'site/login',
 //            'site/login-client',

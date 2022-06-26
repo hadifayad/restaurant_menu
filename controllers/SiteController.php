@@ -259,7 +259,7 @@ public function actionMenu(){
        ]);
 }
 public function actionOurMenu(){
-       return $this->render('our-menu');
+       return $this->renderPartial('our-menu');
 }
     /**
      * Login action.
