@@ -126,8 +126,6 @@ margin-right: 0;
 <div class="mkdf-separator-holder clearfix  mkdf-separator-center">
 <div class="mkdf-separator" style="border-color: rgba(255,255,255,0.18);width: 100%;border-bottom-width: 1px;margin-top: 20px;margin-bottom: 20px"></div>
 </div>
-<span style="color:#fff"> FOLLOW US</span>
-<span class="mkdf-icon-shortcode normal" style="margin: 0 1px 0 10px" data-hover-color="#fcf033" data-color="#9b9b9b">
 
 </span>
 
@@ -153,7 +151,7 @@ margin-right: 0;
 <div class="mkdf-title-subtitle-holder" style="">
 <div class="mkdf-title-subtitle-holder-inner">
 <div class="mkdf-title-area-graphic-holder">
-<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
+<img width="207" height="133" src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "5.189.150.68/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
 <span class="mkdf-subtitle" style="color:#ffffff;"><span><?= $restuarant['name']?></span></span>
 </div>
 </div>
@@ -196,7 +194,7 @@ margin-right: 0;
                            <div class="mkdf-ml-top-holder">
                            <div class="mkdf-ml-title-holder">
                                 <h4 class="mkdf-ml-title">
-<a href="https://piquant.qodeinteractive.com/menu-item/chocolate-macarons/"><?= $food[$j]['food'][$i]["title"]?></a></h4>
+<a href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
 </div>
 <div class="mkdf-ml-dots"></div>
 <div class="mkdf-ml-price-holder">
@@ -273,7 +271,9 @@ margin-right: 0;
 <div class="mkdf-four-columns-inner">
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget"><a href="https://piquant.qodeinteractive.com/"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/logo-footer.png" alt="logo"></a>
+<div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget">
+        <a href="">
+            <img src="<?= "5.189.150.68/restaurant_menu/web/restaurantsUploads".$restuarant['icon']?>" alt="logo"></a>
 <div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
 <?= $restuarant['name']?>
 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
@@ -289,24 +289,33 @@ margin-right: 0;
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
 <span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
-<p style="color:#ffffff;font-size:12px"> 1-444-123-4559</p>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['phone1']?></p>
 </div>
 <div class="mkdf-icon-list-item">
 <div class="mkdf-icon-list-icon-holder">
 <div class="mkdf-icon-list-icon-holder-inner clearfix">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_pin mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
 </div>
-<p style="color:#ffffff;font-size:12px"> Raymond Boulevard 224, New York</p>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['phone2']?></p>
+</div>
+<div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['address']?></p>
+</div><!-- comment -->
+<div class="mkdf-icon-list-item">
+<div class="mkdf-icon-list-icon-holder">
+<div class="mkdf-icon-list-icon-holder-inner clearfix">
+<span aria-hidden="true" class="mkdf-icon-font-elegant icon_phone mkdf-icon-list-item-icon-elem" style="color:#ffffff;font-size:13px"></span> </div>
+</div>
+<p style="color:#ffffff;font-size:12px"><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></p>
 </div>
 </div>
 </div> </div>
 </div>
-<div class="mkdf-column">
-<div class="mkdf-column-inner">
 
-    <div id="text-3" class="widget mkdf-footer-column-2 widget_text"> <div class="textwidget"><div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div></div>
-</div> </div>
-</div>
 
 </div>
 </div> </div>
@@ -321,9 +330,9 @@ margin-right: 0;
 <div class="mkdf-two-columns-50-50-inner">
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-4" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://qodeinteractive.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
+<div id="text-4" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://codeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
 </div> </div>
-</div>
+</div
 <div class="mkdf-column">
 <div class="mkdf-column-inner">
-<div id="text-5" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget"><p>Follow Us
+
