@@ -3,8 +3,8 @@
         <link rel="profile" href="https://gmpg.org/xfn/11">
         <link rel="pingback" href="https://piquant.qodeinteractive.com/xmlrpc.php">
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-        <title>Standard List – Piquant</title>
-        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1821624764800433?v=2.9.62&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KTQ2BTD"></script><script type="application/javascript">var mkdCoreAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><script type="application/javascript">var mkdRestaurantAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1447685263059{padding-bottom: 20px !important;}.vc_custom_1447672721478{margin-right: 0px !important;margin-left: 0px !important;padding-top: 84px !important;padding-bottom: 85px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454) !important;}.vc_custom_1447685269603{padding-top: 60px !important;padding-bottom: 20px !important;}.vc_custom_1447672739246{margin-right: 0px !important;margin-left: 0px !important;padding-top: 102px !important;padding-bottom: 103px !important;background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-2.jpg?id=1461) !important;}.vc_custom_1447758364055{padding-top: 60px !important;padding-bottom: 24px !important;}</style>
+        <title><?= $restuarant['name']." Menu"?></title>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1821624764800433?v=2.9.62&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KTQ2BTD"></script><script type="application/javascript">var mkdCoreAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><script type="application/javascript">var mkdRestaurantAjaxUrl = "https://piquant.qodeinteractive.com/wp-admin/admin-ajax.php"</script><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1447685263059{padding-bottom: 20px !important;}.vc_custom_1447672721478{margin-right: 0px !important;margin-left: 0px !important;padding-top: 84px !important;padding-bottom: 85px !important;background-image: url("https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454") !important;}.vc_custom_1447685269603{padding-top: 60px !important;padding-bottom: 20px !important;}.vc_custom_1447672739246{margin-right: 0px !important;margin-left: 0px !important;padding-top: 102px !important;padding-bottom: 103px !important;background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-2.jpg?id=1461') !important;}.vc_custom_1447758364055{padding-top: 60px !important;padding-bottom: 24px !important;}</style>
 
         <script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
             var gtm4wp_datalayer_name = "dataLayer";
@@ -86,16 +86,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KTQ2BTD');//]]>
         </script>
 
-        <style type="text/css"> .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-container, .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-full-width { background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/pattern-2.png);background-repeat: repeat;background-size: 200px 200px;}
+        <style type="text/css"> .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-container, .page-id-1452 .mkdf-content .mkdf-content-inner > .mkdf-full-width { background-image: url("https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/pattern-2.png");background-repeat: repeat;background-size: 200px 200px;}
 
             .page-id-1452 .mkdf-top-bar { background-color: rgba(17, 17, 17, 0);}
 
         </style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
         <meta name="generator" content="Powered by Slider Revolution 5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-        <link rel="icon" href="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" sizes="32x32">
-        <link rel="icon" href="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" sizes="192x192">
+        <link rel="icon" href="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" sizes="32x32">
+        <link rel="icon" href="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" sizes="192x192">
         <link rel="apple-touch-icon-precomposed" href="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/cropped-favicon-180x180.png">
-        <meta name="msapplication-TileImage" content="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>">
+        <meta name="msapplication-TileImage" content="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>">
         <style type="text/css" id="mkdf-custom-css">.mkdf-single-image-hover a {
                 position: relative;
             }
@@ -145,7 +145,7 @@ margin-right: 0;
 
 <div class="mkdf-content" style="margin-top: -146px">
 <div class="mkdf-content-inner">
-<div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url(http://5.189.150.68/restaurant_menu/web/images/menubg.jpg); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
+<div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url('http://the-onlinemenu.com/images/menubg1.jpg'); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
 <div class="mkdf-title-image"><img src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/title-img-1.jpg" alt="&nbsp;"> </div>
 <div class="mkdf-title-holder" style="height:392px;padding-top: 146px;">
 <div class="mkdf-container clearfix">
@@ -153,7 +153,7 @@ margin-right: 0;
 <div class="mkdf-title-subtitle-holder" style="">
 <div class="mkdf-title-subtitle-holder-inner">
 <div class="mkdf-title-area-graphic-holder">
-<img style ="border-radius: 50%;"width="207" height="133" src="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
+<img style ="border-radius: 50%;"width="207" height="133" src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
 <span class="mkdf-subtitle" style="color:#ffffff;font-size: xx-large"><span><?= $restuarant['name']?></span></span>
 </div>
 </div>
@@ -180,7 +180,7 @@ margin-right: 0;
                         <?php 
                         for($j=0 ;$j<sizeof($food);$j++){
                             ?>
-                        <div data-mkdf-parallax-speed="1" style ="background-image: url(<?= "/restaurant_menu/web/categoriesUploads/".$food[$j]['image']?>) !important;"class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672721478 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 96px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+                        <div data-mkdf-parallax-speed="1" style ="background-image: url(<?= "http://the-onlinemenu.com/categoriesUploads/".$food[$j]['image']?>) !important;"class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672721478 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 96px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
 <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="254" height="201" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png" class="vc_single_image-img attachment-full" alt="q" srcset="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png 254w, https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2-180x142.png 180w" sizes="(max-width: 254px) 100vw, 254px"></div>
@@ -281,7 +281,7 @@ margin-right: 0;
 <div class="mkdf-column-inner">
 <div id="text-2" class="widget mkdf-footer-column-1 widget_text"> <div class="textwidget">
         <a href="">
-            <img style ="    height: 120px;  border-radius: 50%;"src="<?= "/restaurant_menu/web/restaurantsUploads/".$restuarant['icon']?>" alt="Avatar"></a>
+            <img style ="    height: 120px;  border-radius: 50%;"src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" alt="Avatar"></a>
 <div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
 <p style="font-size: xx-large;" ><?= $restuarant['name']?></p>
 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
@@ -389,6 +389,7 @@ margin-right: 0;
 </div>
 </div>
 </div>
+  
 <div class="mkdf-footer-bottom-holder">
 <div class="mkdf-footer-bottom-holder-inner">
 <div class="mkdf-container">
