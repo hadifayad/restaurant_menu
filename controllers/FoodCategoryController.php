@@ -165,12 +165,20 @@ class FoodCategoryController extends Controller {
         $model = $this->findModel($id);
         $path = Yii::getAlias('@webroot/categoriesUploads/');
         $filePath = $path . $model->image;
+
+        try {
+            $model->delete();
+        } catch (\yii\db\Exception $e) {
+            Yii::$app->session->setFlash('danger', "can't delete it has related items");
+        }
+
+
         if (is_file($filePath) && file_exists($filePath)) {
             unlink($filePath);
         } else {
 //                echo 'not directory';
         }
-        $model->delete();
+
         return $this->redirect(['menu/edit']);
 
 //        return $this->redirect(['index']);
