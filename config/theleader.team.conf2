@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+    ServerName theleader.team
+    ServerAlias www.theleader.team
+    ServerAdmin webmaster@theleader.team
+    DocumentRoot /var/www/theleader.team/web/
+
+    <Directory /var/www/theleader.team>
+        Options -Indexes +FollowSymLinks
+        AllowOverride All
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/theleader.team-error.log
+    CustomLog ${APACHE_LOG_DIR}/theleader.team-access.log combined
+</VirtualHost>
