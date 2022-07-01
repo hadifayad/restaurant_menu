@@ -3,43 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodCategorySearch.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodItemSearch.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/create.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/FoodItemController.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/add-images.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/update.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/create.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/composer.json</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/_search.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/index.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/index.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/_search.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/_form.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/web/foodItemsUploads/BnXK8QwDT0DYCBKeJYkHWWbLFPL15C3j.png</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/update.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/view.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodCategory.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/menu/edit.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/_search.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/view.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/SiteController.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/RestaurantController.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/site/menu.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/models/Restaurant.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/models/FoodItem.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/view.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/update.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/config/web.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/create.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/restaurant/index.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/menu/_edit_list_item.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-item/_form.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/food-category/_form.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/FoodCategoryController.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/controllers/MenuController.php</file>
-            <file>file:/C:/xampp/htdocs/restaurant_menu/views/menu/_edit_list_item_detail.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/config/web.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/config/db.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/views/site/menu.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/controllers/SiteController.php</file>
         </group>
     </open-files>
 </project-private>
