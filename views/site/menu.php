@@ -170,7 +170,7 @@
 	<div class="mkdf-overlapping-content-inner">
 	<div class="mkdf-container-inner clearfix">
 	<div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447685263059 mkdf-content-aligment-left" style="">
-            <div class="clearfix mkdf-full-section-inner" style="direction: rtl;">
+            <div class="clearfix mkdf-full-section-inner" style="direction: <?= $restuarant['direction']?>;">
 			<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
 				<div class="vc_column-inner"><div class="wpb_wrapper">
 			<div class="vc_empty_space" style="height: 40px">
@@ -183,13 +183,10 @@
 							<?php 
 							for($j=0 ;$j<sizeof($food);$j++){
 								?>
-							<div data-mkdf-parallax-speed="1" style ="background-image: url(<?= "http://the-onlinemenu.com/categoriesUploads/".$food[$j]['image']?>) !important;"class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447672721478 mkdf-content-aligment-left mkdf-parallax-section-holder mkdf-parallax-section-holder-touch-disabled" style="background-position: 50% 96px;"><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-	<div class="wpb_single_image wpb_content_element vc_align_center">
-	<figure class="wpb_wrapper vc_figure">
-	<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="254" height="201" src="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png" class="vc_single_image-img attachment-full" alt="q" srcset="https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2.png 254w, https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-logo-2-180x142.png 180w" sizes="(max-width: 254px) 100vw, 254px"></div>
-	</figure>
-	</div>
-	</div></div></div></div></div>
+
+                                                    
+                                                    <img src="<?= "http://the-onlinemenu.com/categoriesUploads/".$food[$j]['image']?> " style="width:100% ; height : 120px ; object-fit: cover;">
+                                                    
                                                     <br>
                                                     <br>
                                                     <br>
@@ -219,7 +216,7 @@
 	</div>
 	</div>
 	<div class="mkdf-ml-bottom-holder clearfix">
-	<div class="mkdf-ml-excerpt-holder">
+            <div class="mkdf-ml-excerpt-holder" style="width:100%">
 	<p style ="text-align-last: start;"><?= $food[$j]['food'][$i]["description"] ?></p>
 	</div>
 	</div>

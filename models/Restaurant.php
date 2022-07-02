@@ -12,6 +12,7 @@ use yii\helpers\VarDumper;
  *
  * @property int $id
  * @property string $name
+ * @property string $direction
  * @property string $description
  * @property string $open_time
  * @property string $close_time
@@ -45,7 +46,7 @@ class Restaurant extends ActiveRecord {
     public function rules() {
         return [
             [['name', 'description', 'open_time', 'close_time', 'address', 'phone1'], 'required'],
-            [['description', 'address', 'about_us', 'facebook', 'instagram', 'location'], 'string'],
+            [['description', 'address', 'about_us', 'facebook', 'instagram', 'location','direction'], 'string'],
             [['name', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3'], 'string', 'max' => 200],
             [['icon'], 'string', 'max' => 255],
             [['file'], 'file', 'skipOnEmpty' => true,
@@ -74,6 +75,7 @@ class Restaurant extends ActiveRecord {
             'facebook' => Yii::t('app', 'Facebook'),
             'instagram' => Yii::t('app', 'Instagram'),
             'location' => Yii::t('app', 'Location'),
+            'direction' => Yii::t('app', 'Layout Direction'),
         ];
     }
 

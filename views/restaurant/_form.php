@@ -40,6 +40,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'instagram')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'location')->textarea(['rows' => 6]) ?>
+        <?= $form->field($model, 'direction')->dropDownList(["rtl" => 'عربي', "ltr" => 'english',])->label("layout direction") ?>
 
     <?php
     echo $form->field($model, 'file')->widget(FileInput::classname(), [

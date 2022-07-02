@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle {
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/fonts.css',
     ];
     public $js = [
 //        'web/js/confirmSwal.js',
