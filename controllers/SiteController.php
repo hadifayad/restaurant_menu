@@ -234,7 +234,7 @@ class SiteController extends Controller {
 
         return $this->render('index');
     }
-public function actionMenu(){
+public function actionOurMenu(){
     
     $user = Users::findOne(['id'=>\Yii::$app->user->id]);
 //    VarDumper::dump($user['restaurant_id'] ,3,3);
@@ -257,21 +257,25 @@ public function actionMenu(){
 //      VarDumper::dump($categories,3,3);
 //      die();
       
-      $restuarant = Restaurant::findOne(["id"=>1]);
+      $restuarant = Restaurant::findOne(["id"=>$user['restaurant_id']]);
       
        return $this->renderPartial('menu',[
            'food' => $categories,
            'restuarant' => $restuarant,
        ]);
 }
-public function actionOurMenu(){
-      $categories = FoodCategory::find()->where(["restaurant_id"=>1])->asArray()->all();
+public function actionMenu(){
+      $user = Users::findOne(['id'=>\Yii::$app->user->id]);
+//    VarDumper::dump($user['restaurant_id'] ,3,3);
+//    die();
+
+        $categories = FoodCategory::find()->where(["restaurant_id"=>$user['restaurant_id']])->asArray()->all();
     for($i=0 ; $i<sizeof($categories);$i++){
          $categories[$i]["food"] = FoodItem::find()
               ->select("food_item.* ,food_category.name as category")
                 ->join("join", "food_category",  "food_category.id = food_item.category_id")
-              ->andWhere(['food_category.restaurant_id'=>1])
-              ->andWhere(['food_item.restaurant_id'=>1])
+              ->andWhere(['food_category.restaurant_id'=>$user['restaurant_id']])
+              ->andWhere(['food_item.restaurant_id'=>$user['restaurant_id']])
               ->andWhere(['food_item.category_id'=>  $categories[$i]['id']])
                   ->asArray()->all();
     }
@@ -282,8 +286,9 @@ public function actionOurMenu(){
 //      VarDumper::dump($categories,3,3);
 //      die();
       
-      $restuarant = Restaurant::findOne(["id"=>1]);
-        return $this->renderPartial('our-menu',[
+        $restuarant = Restaurant::findOne(["id"=>$user['restaurant_id']]);
+      
+       return $this->renderPartial('our-menu',[
            'food' => $categories,
            'restuarant' => $restuarant,
        ]);

@@ -25,6 +25,7 @@ use yii\helpers\VarDumper;
  * @property string|null $facebook
  * @property string|null $instagram
  * @property string $location
+ * @property string $currency
  *
  * @property RestaurantPictures[] $restaurantPictures
  * @property User[] $users
@@ -47,7 +48,7 @@ class Restaurant extends ActiveRecord {
         return [
             [['name', 'description', 'open_time', 'close_time', 'address', 'phone1'], 'required'],
             [['description', 'address', 'about_us', 'facebook', 'instagram', 'location','direction'], 'string'],
-            [['name', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3'], 'string', 'max' => 200],
+            [['name', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3','currency'], 'string', 'max' => 200],
             [['icon'], 'string', 'max' => 255],
             [['file'], 'file', 'skipOnEmpty' => true,
                 'extensions' => 'png, jpg',
@@ -75,6 +76,7 @@ class Restaurant extends ActiveRecord {
             'facebook' => Yii::t('app', 'Facebook'),
             'instagram' => Yii::t('app', 'Instagram'),
             'location' => Yii::t('app', 'Location'),
+            'currency' => Yii::t('app', 'Currency'),
             'direction' => Yii::t('app', 'Layout Direction'),
         ];
     }

@@ -41,6 +41,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'location')->textarea(['rows' => 6]) ?>
         <?= $form->field($model, 'direction')->dropDownList(["rtl" => 'عربي', "ltr" => 'english',])->label("layout direction") ?>
+      <?= $form->field($model, 'currency')->dropDownList(["L.L" => 'ليرة لبنانية', "$" => 'USD',])->label("Currency") ?>
 
     <?php
     echo $form->field($model, 'file')->widget(FileInput::classname(), [

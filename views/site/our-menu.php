@@ -125,6 +125,27 @@
 	}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style>.fluidvids {width: 100%; max-width: 100%; position: relative;}.fluidvids-item {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;}</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/5/util.js"></script></head>
 	
             <style> 
+                
+     .mkdf-menu-list .mkdf-mlw-title-holder .mkdf-mlw-border .mkdf-mlw-border-inner:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #02020200;
+    width: 100%;
+    display: block;
+}
+
+
+.mkdf-menu-list .mkdf-mlw-title-holder .mkdf-mlw-border .mkdf-mlw-border-inner:after, .mkdf-menu-list .mkdf-mlw-title-holder .mkdf-mlw-border .mkdf-mlw-border-inner:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #02020200;
+    width: 100%;
+    display: block;
+}
 @font-face {
    font-family: myFirstFont;
    src: url(sansation_light.woff);
@@ -212,9 +233,9 @@
 	</div>
 	</div>
 	</div>
-            <div class="mkdf-container" >
+            <div class="mkdf-container" style="background: #020202b0;">
 	<div class="mkdf-overlapping-content-holder"style=" z-index: 2;" >
-	<div class="mkdf-overlapping-content"style="background-color:#020202b0;">
+	<div class="mkdf-overlapping-content"style="background-color:#f7f7f700;">
 	<div class="mkdf-overlapping-content-inner">
 	<div class="mkdf-container-inner clearfix">
 	<div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447685263059 mkdf-content-aligment-left" style="">
@@ -227,29 +248,28 @@
 				<div class="">
 					<div class="wpb_wrapper">
 						<div class="mkdf-menu-list" >
-							
+                                                    <br>
 							<?php 
 							for($j=0 ;$j<sizeof($food);$j++){
                                                             if($food[$j]['image']){
 								?>
 
                                                     
-                                                    <img src="<?= "http://the-onlinemenu.com/categoriesUploads/".$food[$j]['image']?> " style="width:100% ; height : 120px ; object-fit: cover;">
+                                                    <img src="<?= "http://the-onlinemenu.com/categoriesUploads/".$food[$j]['image']?> " style="width:100% ; height : 180px ; object-fit: cover;">
                                                     
-                                                    <br>
-                                                    <br>
+                                                   
                                                             <?php }?>
                                                     <br>
                                                     
                                                     
-							<div class="mkdf-mlw-title-holder mkdf-mlw-title-holder-">
+							<div class="mkdf-mlw-title-holder ">
                                                             <h2 class="mkdf-mlw-title" style="  color: #d6cfc5;  padding: 10px!important;font-family: '18_khebrat_musamimbold';"><?= $food[$j]['name']?></h2>
 								<span class="mkdf-mlw-border">
-                                                                    <span class="mkdf-mlw-border-inner"style="    border-bottom: 1px solid #d6cfc5;"></span>
+                                                                    <span class="mkdf-mlw-border-inner"style="    border-bottom: 2px solid #d6cfc5;"></span>
                                                                         <!--<span class="mkdf-mlw-border-inner"style="    border-bottom: 1px solid #db9090;"></span>-->             
                                                                     
                                                                 </span></div>
-                                                    <ul class="mkdf-ml-holder" style="margin: 0 0 0 0 ; ">
+                                                    <ul class="mkdf-ml-holder" style="margin: 0 0 100 0 ; ">
 								  
 
 	  <?php
@@ -261,11 +281,11 @@
 							   <div class="mkdf-ml-top-holder">
 							   <div class="mkdf-ml-title-holder">
 									<h4 class="mkdf-ml-title">
-	<a style="color: #f3e6dd    ; padding: 10px; font-family: 'back_to_schoolregular' " href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
+	<a style="color: #f3e6dd    ; padding: 10px; font-family: '' " href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
 	</div>
 	<div class="mkdf-ml-dots"></div>
 	<div class="mkdf-ml-price-holder">
-	<h4  style="color: #f3e6dd   ; padding-right:  10px;padding-left: 10px;padding-top: 10px " class="mkdf-ml-price"><?= $food[$j]['food'][$i]["price"]?></h4>
+	<h4  style="color: #f3e6dd   ; padding-right:  10px;padding-left: 10px;padding-top: 10px " class="mkdf-ml-price"><?= $food[$j]['food'][$i]["price"]." ".$restuarant['currency']?></h4>
 	</div>
 	</div>
 	<div class="mkdf-ml-bottom-holder clearfix">
@@ -286,6 +306,8 @@
 							
 							
 							  <?php   }?>
+                                                    <br><!-- comment -->
+                                                    <br>
 						   <!--///-->
 	</div>
 						<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div>
@@ -327,10 +349,11 @@
 	</div> 
 
 	<footer>
-	  
+<!--	    <div style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454'); filter: blur(8px);
+                  -webkit-filter: blur(8px);"></div>-->
 	<div class="mkdf-footer-inner clearfix">
-	<div class="mkdf-footer-top-holder" style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454'); filter: blur(8px);
-  -webkit-filter: blur(8px);">
+            <div class="mkdf-footer-top-holder" >
+           
 	<div class="mkdf-footer-top ">
 	<div class="mkdf-container">
 	<div class="mkdf-container-inner">
@@ -391,7 +414,7 @@
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
 	<span aria-hidden="true" class="fa fa-clock-o" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
-	<i style="color:#ffffff;font-size:12px"><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></i>
+	<i style="color:#ffffff;font-size:12px  ;z-index: 1000"    ><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></i>
 	</div>
 			<?php 
 	}?>
@@ -449,6 +472,7 @@
 	</div>
 	</div>
 	</div>
+                
 	  
 	<div class="mkdf-footer-bottom-holder">
 	<div class="mkdf-footer-bottom-holder-inner">
