@@ -7,6 +7,8 @@
             <file>file:/C:/wamp64/www/restaurant_menu/web/css/fonts.css</file>
             <file>file:/C:/wamp64/www/restaurant_menu/config/web.php</file>
             <file>file:/C:/wamp64/www/restaurant_menu/config/db.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/models/Restaurant.php</file>
+            <file>file:/C:/wamp64/www/restaurant_menu/views/restaurant/_form.php</file>
             <file>file:/C:/wamp64/www/restaurant_menu/views/site/menu.php</file>
             <file>file:/C:/wamp64/www/restaurant_menu/controllers/SiteController.php</file>
         </group>

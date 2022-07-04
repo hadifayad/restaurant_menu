@@ -192,7 +192,7 @@
 
 </style>
 <meta http-equiv="Content-Type" content="text/html" charset=utf-8"/>
-            <body     style="background-color: #020202b0;" class="page-template-default page page-id-1452 mkd-core-1.0 mkd-restaurant-1.0 piquant-ver-1.1  mkdf-header-standard mkdf-sticky-header-on-scroll-up mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-dropdown-default mkdf-light-header mkdf-header-standard-border-disable mkdf-top-bar-with-border mkdf-top-bar-in-grid mkdf-overlapping-content-enabled mkdf-side-menu-slide-with-content mkdf-width-370 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+            <body     style="background-color: #020202b0;    padding: 0 0 0 0;" class="page-template-default page page-id-1452 mkd-core-1.0 mkd-restaurant-1.0 piquant-ver-1.1  mkdf-header-standard mkdf-sticky-header-on-scroll-up mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-dropdown-default mkdf-light-header mkdf-header-standard-border-disable mkdf-top-bar-with-border mkdf-top-bar-in-grid mkdf-overlapping-content-enabled mkdf-side-menu-slide-with-content mkdf-width-370 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
 	<section class="mkdf-side-menu right" tabindex="0" style="overflow-y: hidden; outline: none;">
 		
 
@@ -213,26 +213,41 @@
 	</div>
 	</div>
 	</header>
-
+         <div class="" style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454');top: 0; height: 450px;  filter: blur(8px);-webkit-filter: blur(8px);  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;"></div>
+	
+	
+	<img style ="border-radius: 50%;    position: absolute;
+    top: 100;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+   
+    padding: 10px;
+    text-align: center;"width="350" height="auto";src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> 
+	
+        <span style ="border-radius: 50%;    position: absolute;
+    top: 250;
+    left: 50%;
+    transform: translate(-50%, -50%);   z-index: 3;
+   color:#ffffff;font-size: xx-large;
+width: fit-content;
+font-family: 'back_to_schoolregular';
+    text-align: center;"width="auto" height="auto"; class="attachment-full size-full""> 
+       <?= $restuarant['name']?> </span>
+       
 
 	<div class="mkdf-content" style="margin-top: -146px">
 	<div class="mkdf-content-inner">
-	<div class="mkdf-title mkdf-standard-type mkdf-has-background mkdf-has-parallax-background mkdf-content-center-alignment mkdf-animation-no mkdf-title-image-not-responsive mkdf-has-subtitle mkdf-subtitle-type-standard mkdf-has-title-graphic" style="background-image: url('http://the-onlinemenu.com/images/menubg.jpg'); height: 538px; border-bottom: none; background-position: center -343.083px;" data-height="538" data-background-width="&quot;1920&quot;">
-	<div class="mkdf-title-image"><img src="http://the-onlinemenu.com/images/menubgMobile.jpg" alt="&nbsp;"> </div>
-	<div class="mkdf-title-holder" style="height:392px;padding-top: 146px;">
-	<div class="mkdf-container clearfix">
-	<div class="mkdf-container-inner">
-	<div class="mkdf-title-subtitle-holder" style="">
-	<div class="mkdf-title-subtitle-holder-inner">
-	<div class="mkdf-title-area-graphic-holder">
-	<img style ="border-radius: 50%;"width="207" height="133" src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" class="attachment-full size-full" alt="p" srcset="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 207w, <?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?> 180w" sizes="(max-width: 207px) 100vw, 207px"> </div>
-	<span class="mkdf-subtitle" style="color:#ffffff;font-size: xx-large"><span><?= $restuarant['name']?></span></span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
+           
+        
+        	   
+	
+	
+
+      
+	
             <div class="mkdf-container" style="background: #020202b0;">
 	<div class="mkdf-overlapping-content-holder"style=" z-index: 2;" >
 	<div class="mkdf-overlapping-content"style="background-color:#f7f7f700;">
@@ -281,7 +296,7 @@
 							   <div class="mkdf-ml-top-holder">
 							   <div class="mkdf-ml-title-holder">
 									<h4 class="mkdf-ml-title">
-	<a style="color: #f3e6dd    ; padding: 10px; font-family: '' " href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
+	<a style="color: #f3e6dd    ; padding: 5px;    font-size: small; font-family: '' " href=""><?= $food[$j]['food'][$i]["title"]?></a></h4>
 	</div>
 	<div class="mkdf-ml-dots"></div>
 	<div class="mkdf-ml-price-holder">
@@ -306,8 +321,8 @@
 							
 							
 							  <?php   }?>
-                                                    <br><!-- comment -->
-                                                    <br>
+                                            <!-- comment -->
+                                                
 						   <!--///-->
 	</div>
 						<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div>
@@ -323,19 +338,17 @@
 		</div>
 	</div>
 		
-		<div data-mkdf-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkdf-section vc_custom_1447758364055 mkdf-content-aligment-left" style=""><div class="clearfix mkdf-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkdf-menu-list"><ul class="mkdf-ml-holder"><li class="mkdf-ml-item clearfix">
+
+                 
+                       
+                          
+                              
+                  
 
 
 
-
-
-
-	</ul></div>
-
-
-
-
-	</ul></div><div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
+	</ul>
+                      
 
 
 	</div>
@@ -347,17 +360,13 @@
 	</div>
 	</div> 
 	</div> 
-
-	<footer>
-<!--	    <div style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454'); filter: blur(8px);
-                  -webkit-filter: blur(8px);"></div>-->
-	<div class="mkdf-footer-inner clearfix">
-            <div class="mkdf-footer-top-holder" >
-           
-	<div class="mkdf-footer-top ">
+    <div class="" style="background-image: url('http://the-onlinemenu.com/restaurantsUploads/images/footer.jpg');bottom: 120; height: 450px;  filter: blur(8px);-webkit-filter: blur(8px);  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;"></div>
+  <div class="mkdf-footer-top "style="bottom:70;position: absolute;z-index: 2;left: 30%">
 	<div class="mkdf-container">
 	<div class="mkdf-container-inner">
-	<div class="mkdf-four-columns clearfix">
+  <div class="mkdf-four-columns clearfix">
 	<div class="mkdf-four-columns-inner">
 	<div class="mkdf-column">
 	<div class="mkdf-column-inner">
@@ -365,7 +374,7 @@
 			<a href="">
 				<img style ="    height: 120px;  border-radius: 50%;"src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" alt="Avatar"></a>
 	<div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
-	<i style="font-size: xx-large;" ><?= $restuarant['name']?></i>
+	<i style="font-size: xx-large;font-family: 'back_to_schoolregular';" ><?= $restuarant['name']?></i>
 	<div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 	<?php if($restuarant['phone1']){
 		
@@ -465,14 +474,23 @@
 	</div>
 	</div> </div>
 	</div>
-
-
-	</div>
-	</div> </div>
-	</div>
+</div>
 	</div>
 	</div>
                 
+
+	</div>
+	</div> 
+	
+	<footer>
+<!--	    <div style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454'); filter: blur(8px);
+                  -webkit-filter: blur(8px);"></div>-->
+	<div class="mkdf-footer-inner clearfix">
+            <div class="mkdf-footer-top-holder" >
+           
+	
+	
+	
 	  
 	<div class="mkdf-footer-bottom-holder">
 	<div class="mkdf-footer-bottom-holder-inner">
@@ -482,7 +500,8 @@
 	<div class="mkdf-two-columns-50-50-inner">
 	<div class="mkdf-column">
 	<div class="mkdf-column-inner">
-	<div id="text-4" class="widget mkdf-footer-bottom-left widget_text"> <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://thecodeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
+	<div id="text-4" class="widget mkdf-footer-bottom-left widget_text">
+            <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://thecodeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
 	</div> </div>
 	</div
 	<div class="mkdf-column">
