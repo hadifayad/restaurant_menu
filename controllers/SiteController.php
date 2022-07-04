@@ -5,10 +5,12 @@ namespace app\controllers;
 use app\models\Branch;
 use app\models\ContactForm;
 use app\models\Customer;
+use app\models\FoodCategory;
 use app\models\FoodItem;
 use app\models\JobCard;
 use app\models\JobCardItems;
 use app\models\LoginForm;
+use app\models\Restaurant;
 use app\models\Users;
 use Composer\XdebugHandler\Status;
 use Yii;
@@ -232,15 +234,19 @@ class SiteController extends Controller {
 
         return $this->render('index');
     }
-public function actionMenu(){
+public function actionOurMenu(){
     
-    $categories = \app\models\FoodCategory::find()->where(["restaurant_id"=>1])->asArray()->all();
+    $user = Users::findOne(['id'=>\Yii::$app->user->id]);
+//    VarDumper::dump($user['restaurant_id'] ,3,3);
+//    die();
+
+        $categories = FoodCategory::find()->where(["restaurant_id"=>$user['restaurant_id']])->asArray()->all();
     for($i=0 ; $i<sizeof($categories);$i++){
          $categories[$i]["food"] = FoodItem::find()
               ->select("food_item.* ,food_category.name as category")
                 ->join("join", "food_category",  "food_category.id = food_item.category_id")
-              ->andWhere(['food_category.restaurant_id'=>1])
-              ->andWhere(['food_item.restaurant_id'=>1])
+              ->andWhere(['food_category.restaurant_id'=>$user['restaurant_id']])
+              ->andWhere(['food_item.restaurant_id'=>$user['restaurant_id']])
               ->andWhere(['food_item.category_id'=>  $categories[$i]['id']])
                   ->asArray()->all();
     }
@@ -251,15 +257,41 @@ public function actionMenu(){
 //      VarDumper::dump($categories,3,3);
 //      die();
       
-      $restuarant = \app\models\Restaurant::findOne(["id"=>1]);
+      $restuarant = Restaurant::findOne(["id"=>$user['restaurant_id']]);
       
        return $this->renderPartial('menu',[
            'food' => $categories,
            'restuarant' => $restuarant,
        ]);
 }
-public function actionOurMenu(){
-       return $this->renderPartial('our-menu');
+public function actionMenu(){
+      $user = Users::findOne(['id'=>\Yii::$app->user->id]);
+//    VarDumper::dump($user['restaurant_id'] ,3,3);
+//    die();
+
+        $categories = FoodCategory::find()->where(["restaurant_id"=>$user['restaurant_id']])->asArray()->all();
+    for($i=0 ; $i<sizeof($categories);$i++){
+         $categories[$i]["food"] = FoodItem::find()
+              ->select("food_item.* ,food_category.name as category")
+                ->join("join", "food_category",  "food_category.id = food_item.category_id")
+              ->andWhere(['food_category.restaurant_id'=>$user['restaurant_id']])
+              ->andWhere(['food_item.restaurant_id'=>$user['restaurant_id']])
+              ->andWhere(['food_item.category_id'=>  $categories[$i]['id']])
+                  ->asArray()->all();
+    }
+    
+     
+            
+//             
+//      VarDumper::dump($categories,3,3);
+//      die();
+      
+        $restuarant = Restaurant::findOne(["id"=>$user['restaurant_id']]);
+      
+       return $this->renderPartial('our-menu',[
+           'food' => $categories,
+           'restuarant' => $restuarant,
+       ]);
 }
     /**
      * Login action.

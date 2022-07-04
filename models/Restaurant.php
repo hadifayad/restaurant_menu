@@ -12,6 +12,7 @@ use yii\helpers\VarDumper;
  *
  * @property int $id
  * @property string $name
+ * @property string $direction
  * @property string $description
  * @property string $open_time
  * @property string $close_time
@@ -24,6 +25,7 @@ use yii\helpers\VarDumper;
  * @property string|null $facebook
  * @property string|null $instagram
  * @property string $location
+ * @property string $currency
  *
  * @property RestaurantPictures[] $restaurantPictures
  * @property User[] $users
@@ -45,8 +47,8 @@ class Restaurant extends ActiveRecord {
     public function rules() {
         return [
             [['name', 'description', 'open_time', 'close_time', 'address', 'phone1'], 'required'],
-            [['description', 'address', 'about_us', 'facebook', 'instagram', 'location'], 'string'],
-            [['name', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3'], 'string', 'max' => 200],
+            [['description', 'address', 'about_us', 'facebook', 'instagram', 'location','direction'], 'string'],
+            [['name', 'open_time', 'close_time', 'phone1', 'phone2', 'phone3','currency'], 'string', 'max' => 200],
             [['icon'], 'string', 'max' => 255],
             [['file'], 'file', 'skipOnEmpty' => true,
                 'extensions' => 'png, jpg',
@@ -74,6 +76,8 @@ class Restaurant extends ActiveRecord {
             'facebook' => Yii::t('app', 'Facebook'),
             'instagram' => Yii::t('app', 'Instagram'),
             'location' => Yii::t('app', 'Location'),
+            'currency' => Yii::t('app', 'Currency'),
+            'direction' => Yii::t('app', 'Layout Direction'),
         ];
     }
 
