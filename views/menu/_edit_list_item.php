@@ -22,12 +22,20 @@ use yii\widgets\ListView;
             <label><?= Html::encode($model->name); ?></label>
             <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
                 <?=
-                Html::a('<span class="glyphicon glyphicon-plus"></span>', ["food-item/create", "category_id" => $model->id])
+                Html::a('<span class="glyphicon glyphicon-plus"></span>', ["food-item/create", "category_id" => $model->id]
+                        , [
+                    'style' => "color: green;"
+                        ]
+                )
                 ?>
             </div>
             <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
                 <?=
-                Html::a('<span class="glyphicon glyphicon-edit"></span>', ["food-category/update", "id" => $model->id])
+                Html::a('<span class="glyphicon glyphicon-edit"></span>', ["food-category/update", "id" => $model->id]
+                        , [
+                    'style' => "color: blue;"
+                        ]
+                )
                 ?>
             </div>
             <div class="pull-right" style="margin-left: 5px;margin-right: 5px;">
@@ -36,7 +44,7 @@ use yii\widgets\ListView;
                     'data' => [
                         'confirm' => 'Are you sure ?',
                         'method' => 'post',
-            ]])
+                    ], 'style' => "color: red;"])
                 ?>
             </div>
         </div>

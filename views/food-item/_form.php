@@ -35,7 +35,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'price')->textInput() ?>
 
     <?php
-    echo $form->field($model, 'file')->widget(FileInput::classname(), [
+     $form->field($model, 'file')->widget(FileInput::classname(), [
         'options' => [
             'accept' => 'image/*',
             'multiple' => false
