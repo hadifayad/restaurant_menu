@@ -213,7 +213,7 @@
 	</div>
 	</div>
 	</header>
-         <div class="" style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454');top: 0; height: 450px;  filter: blur(8px);-webkit-filter: blur(8px);  background-position: center;
+         <div class="" style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454');top: 0; height: 450px;  filter: blur(3px);-webkit-filter: blur(3px);  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;"></div>
 	
@@ -360,7 +360,7 @@ font-family: 'back_to_schoolregular';
 	</div>
 	</div> 
 	</div> 
-    <div class="" style="background-image: url('http://the-onlinemenu.com/restaurantsUploads/images/footer.jpg');bottom: 120; height: 450px;  filter: blur(8px);-webkit-filter: blur(8px);  background-position: center;
+    <div class="" style="background-image: url('http://the-onlinemenu.com/images/footer.jpg');bottom: 120; height: 450px;  filter: blur(3px);-webkit-filter: blur(3px);  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;"></div>
   <div class="mkdf-footer-top "style="bottom:70;position: absolute;z-index: 2;left: 30%">
@@ -374,7 +374,8 @@ font-family: 'back_to_schoolregular';
 			<a href="">
 				<img style ="    height: 120px;  border-radius: 50%;"src="<?= "http://the-onlinemenu.com/restaurantsUploads/".$restuarant['icon']?>" alt="Avatar"></a>
 	<div class="vc_empty_space" style="height: 7px"><span class="vc_empty_space_inner"></span></div>
-	<i style="font-size: xx-large;font-family: 'back_to_schoolregular';" ><?= $restuarant['name']?></i>
+	<i style="font-size: xx-large;font-weight: 900;
+    color: white;" ><?= $restuarant['name']?></i>
 	<div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 	<?php if($restuarant['phone1']){
 		
@@ -384,7 +385,8 @@ font-family: 'back_to_schoolregular';
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
 	<span aria-hidden="true" class="icon-phone" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
-	<i style="color:#ffffff;font-size:12px"><?= $restuarant['phone1']?></i>
+	<i style="color:#ffffff;font-size:12px;font-weight: 400;
+    color: white;"><?= $restuarant['phone1']?></i>
 	</div>
 			<?php 
 	}?>
@@ -397,7 +399,8 @@ font-family: 'back_to_schoolregular';
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
 	<span aria-hidden="true" class="icon-phone" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
-	<i style="color:#ffffff;font-size:12px"><?= $restuarant['phone2']?></i>
+	<i style="color:#ffffff;font-size:12px;font-weight: 400;
+    color: white;"><?= $restuarant['phone2']?></i>
 	</div>
 			<?php 
 	}?>
@@ -410,7 +413,8 @@ font-family: 'back_to_schoolregular';
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
 	<span aria-hidden="true" class=" fa fa-map-marker" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
-	<i style="color:#ffffff;font-size:12px"><?= $restuarant['address']?></i>
+	<i style="color:#ffffff;font-size:12px;font-weight: 400;
+    color: white;"><?= $restuarant['address']?></i>
 	</div><!-- comment -->
 			<?php 
 	}?>
@@ -423,7 +427,8 @@ font-family: 'back_to_schoolregular';
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
 	<span aria-hidden="true" class="fa fa-clock-o" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
-	<i style="color:#ffffff;font-size:12px  ;z-index: 1000"    ><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></i>
+	<i style="color:#ffffff;font-size:12px  ;z-index: 1000;font-weight: 400;
+    color: white;"    ><?= $restuarant['open_time']."-".$restuarant['close_time'] ?></i>
 	</div>
 			<?php 
 	}?>
@@ -434,11 +439,13 @@ font-family: 'back_to_schoolregular';
 			<div class="mkdf-icon-list-item">
 	<div class="mkdf-icon-list-icon-holder">
 	<div class="mkdf-icon-list-icon-holder-inner clearfix">
-	<span aria-hidden="true" class="fa fa-facebook" style=font-size:13px"></span> 
+	<span aria-hidden="true" class="fa fa-facebook-f" style="font-size:13px;color:white"></span> 
 	</div>
 	</div>
+                            
 				 <a href="<?= $restuarant['facebook']?>">
-					 <i style="color:#ffffff;font-size:12px"><?= $restuarant['facebook']?></i></a>
+					 <i style="color:#ffffff;font-size:12px;font-weight: 400;
+    color: white;"><?= $restuarant['facebook']?></i></a>
 	</div>
 			<?php 
 	}?>
@@ -452,7 +459,8 @@ font-family: 'back_to_schoolregular';
 	<span aria-hidden="true" class="icon-instagram" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
 					<a href="<?= $restuarant['instagram']?>">
-						<i style="color:#ffffff;font-size:12px"><?= $restuarant['instagram']?></i></a>
+						<i style="color:#ffffff;font-size:12px;font-weight: 400;
+  "><?= $restuarant['instagram']?></i></a>
 	</div>
 		<?php 
 	}?>
@@ -466,7 +474,8 @@ font-family: 'back_to_schoolregular';
 		<span aria-hidden="true" class="fa fa-location-arrow" style="color:#ffffff;font-size:13px"></span> </div>
 	</div>
 					<a href="<?= $restuarant['location']?>">
-						<i style="color:#ffffff;font-size:12px"><?= $restuarant['location']?></i></a>
+						<i style="color:#ffffff;font-size:12px;font-weight: 400;
+    color: white;"><?= $restuarant['location']?></i></a>
 	</div>
 			<?php 
 	}?>
@@ -483,8 +492,7 @@ font-family: 'back_to_schoolregular';
 	</div> 
 	
 	<footer>
-<!--	    <div style="background-image: url('https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/menu-parallax-1.jpg?id=1454'); filter: blur(8px);
-                  -webkit-filter: blur(8px);"></div>-->
+
 	<div class="mkdf-footer-inner clearfix">
             <div class="mkdf-footer-top-holder" >
            
@@ -501,7 +509,7 @@ font-family: 'back_to_schoolregular';
 	<div class="mkdf-column">
 	<div class="mkdf-column-inner">
 	<div id="text-4" class="widget mkdf-footer-bottom-left widget_text">
-            <div class="textwidget">© 2022 <a style="color: #ffffff;" href="https://thecodeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
+            <div class="textwidget">© 2022 <a href="https://thecodeit.com/" style="color: #ffffff;" href="https://thecodeit.com/" target="_blank" rel="noopener noreferrer">CodeIt</a>, All Rights Reserved</div>
 	</div> </div>
 	</div
 	<div class="mkdf-column">
